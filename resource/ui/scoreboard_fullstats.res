@@ -32,7 +32,7 @@
 		"fieldName"									"MainBackground"
 		"xpos"										"cs-0.5"
 		"ypos"										"150"
-		"zpos"										"2"
+		"zpos"										"20"
 		"wide"										"510"
 		"tall"										"173"
 		"autoResize"								"0"
@@ -53,11 +53,11 @@
 	{
 		"ControlName"	        					"SectionedListPanel"
 		"fieldName"		        					"BluePlayerList"
-		"xpos"			          					"-2"
-		"ypos"			          					"-2"
+		"xpos"			          					"cs-1+1"
+		"ypos"			          					"c-90"
 		"wide"			          					"254"
 		"tall"			          					"167"
-		"zpos"			          					"20"
+		"zpos"			          					"22"
 		"pinCorner"		        					"0"
 		"visible"		          					"1"
 		"enabled"		          					"1"
@@ -67,20 +67,21 @@
 		"fgcolor"		          					"blue"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"MainBackground"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		//"xpos"			          				"-1"
+		//"ypos"			          				"-2"
+		//"pin_to_sibling" 							"MainBackground"
+		//"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		//"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
 	"RedPlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
 		"fieldName"									"RedPlayerList"
-		"xpos"			         					"-2"
-		"ypos"			          					"-2"
+		"xpos"			         					"cs0-1"
+		"ypos"			          					"c-90"
 		"wide"			          					"254"
 		"tall"			          					"167"
-		"zpos"			          					"20"
+		"zpos"			          					"22"
 		"pinCorner"		        					"0"
 		"visible"		          					"1"
 		"enabled"		          					"1"
@@ -90,9 +91,11 @@
 		"textcolor"									"red"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"MainBackground"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		//"xpos"			         				"-1"
+		//"ypos"			          				"-2"
+		//"pin_to_sibling" 							"MainBackground"
+		//"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		//"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	
 	"BlueScoreBG"
@@ -100,10 +103,10 @@
 		"ControlName"								"EditablePanel"  
 		"fieldName"									"BlueScoreBG"
 		"xpos"										"0"
-		"ypos"										"-8"
-		"zpos"										"22"
+		"ypos"										"-13"
+		"zpos"										"18"
 		"wide"										"258"
-		"tall"										"26"
+		"tall"										"33"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -120,16 +123,15 @@
 			"visible"								"0"
 		}
 	}
-	
 	"RedScoreBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedScoreBG"
 		"xpos"										"0"
-		"ypos"										"-8"
-		"zpos"										"22"
+		"ypos"										"-13"
+		"zpos"										"18"
 		"wide"										"259"
-		"tall"										"26"
+		"tall"										"33"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -156,7 +158,7 @@
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
 		"xpos"										"-10"
-		"ypos"										"0" 
+		"ypos"										"-2" 
 		"zpos"										"24"
 		"wide"										"100"
 		"tall"										"21"
@@ -166,8 +168,8 @@
 		"enabled"									"1"
 		
 		"pin_to_sibling" 							"BlueScoreBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
 		if_mvm
 		{
@@ -262,7 +264,7 @@
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
 		"xpos"										"-10"
-		"ypos"										"0" 
+		"ypos"										"-2" 
 		"zpos"										"24"
 		"wide"										"100"
 		"tall"										"21"
@@ -272,8 +274,8 @@
 		"enabled"									"1"
 		
 		"pin_to_sibling" 							"RedScoreBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		if_mvm
 		{
@@ -556,7 +558,6 @@
 				"visible"							"1"
 			}
 		}
-
 		"KillsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -623,7 +624,6 @@
 				"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
 			}
 		}
-		
 		"DeathsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -695,7 +695,6 @@
 				"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
 			}
 		}
-		
 		"AssistsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -770,7 +769,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"DestructionWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -845,7 +843,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"CapturesWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -920,7 +917,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"DefensesWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -995,7 +991,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"DominationWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1070,7 +1065,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"RevengeWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1145,7 +1139,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"HealingWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1220,7 +1213,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"InvulnWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1295,7 +1287,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"TeleportsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1370,7 +1361,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"HeadshotsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1445,7 +1435,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"BackstabsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1520,7 +1509,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"BonusWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1595,7 +1583,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"SupportWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1670,7 +1657,6 @@
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
 		}
-		
 		"DamageWhite"
 		{
 			"ControlName"							"CExLabel"

@@ -2,6 +2,280 @@ Scheme
 {
 	Borders
 	{
+		OutlineSize2
+		{
+		    "inset" 			"0 0 2 2"
+		    "backgroundtype"	"2"
+		    Left
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset"	"0 2"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"1 2"
+		        }
+		    }
+		    Right
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"1 1"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"2 2"
+		        }
+		    }
+		    Top
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"1 0"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"2 1"
+		        }
+		    }
+		    Bottom
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"0 0"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"0 1"
+		        }
+		    }
+		}
+
+		OutlineSize3
+		{
+		    "inset" 			"0 0 3 3"
+		    "backgroundtype"	"2"
+		    Left
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"0 3"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"1 3"
+		        }
+				"3"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"2 3"
+		        }
+		    }
+		    Right
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"1 1"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"2 2"
+		        }
+				"3"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"3 3"
+		        }
+		    }
+		    Top
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"1 0"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"2 1"
+		        }
+				"3"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"3 2"
+		        }
+		    }
+		    Bottom
+		    {
+		        "1"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"0 0"
+		        }
+				"2"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"0 1"
+		        }
+				"3"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"0 2"
+		        }
+		    }
+		}
+
+		OutlineSize2Shrunk
+		{
+		    "inset" 			"0 0 1 1"
+		    "backgroundtype"	"2"
+		    Left
+		    {
+		        "1"
+		        {
+		            "color" 	"Blank"
+		            "offset"	"0 6"
+		        }
+				"2"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"1 6"
+		        }
+				"3"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"2 6"
+		        }
+				"4"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"3 6"
+		        }
+				"5"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"4 6"
+		        }
+				"6"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"5 6"
+		        }
+		    }
+		    Right
+		    {
+				"1"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"1 1"
+		        }
+				"2"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"2 2"
+		        }
+				"3"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"3 3"
+		        }
+				"4"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"4 4"
+		        }
+		        "5"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"5 5"
+		        }
+				"6"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"6 6"
+		        }
+		    }
+		    Top
+		    {
+				"1"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"1 0"
+		        }
+				"2"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"2 1"
+		        }
+				"3"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"3 2"
+		        }
+				"4"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"4 3"
+		        }
+		        "5"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"5 4"
+		        }
+				"6"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"6 5"
+		        }
+		    }
+		    Bottom
+		    {
+				"1"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"4 0"
+		        }
+				"2"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"4 1"
+		        }
+				"3"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"4 2"
+		        }
+				"4"
+		        {
+		            "color" 	"Blank"
+		            "offset" 	"4 3"
+		        }
+		        "5"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"4 4"
+		        }
+				"6"
+		        {
+		            "color" 	"OutlineBorder"
+		            "offset" 	"4 5"
+		        }
+		    }
+		}
+
 		////////////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////MATERIAL MAIN THEME////////////////////////////////
 		////////////////////////////////////////////////////////////////////////////////////

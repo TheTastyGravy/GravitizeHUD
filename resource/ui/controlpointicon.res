@@ -7,10 +7,25 @@
 		"xpos"		    							"0"
 		"ypos"		    							"0"
 		"zpos"		    							"2"
-		"wide"		    							"23"
-		"tall"		    							"23"
+		"wide"		    							"26"
+		"tall"		    							"26"
 		"visible"	   						 		"1"
 		"enabled"	    							"1"
+	}
+
+	"ControlPointOutline"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"	  								"ControlPointOutline"
+		"xpos"		    							"0"
+		"ypos"		    							"0"
+		"zpos"		    							"3"
+		"wide"		    							"26"
+		"tall"		    							"26"
+		"visible"	   						 		"1"
+		"enabled"	    							"1"
+		"paintbackground"							"0"
+		"border"									"OutlineSize2Shrunk"
 	}
 	
 	"Countdown"
@@ -34,7 +49,7 @@
 		"ypos"		    							"2"
 		"zpos"		    							"3"
 		"wide"		    							"8"
-		"tall"		    							"12"
+		"tall"		    							"13"
 		"visible"	    							"0"
 		"enabled"	    							"1"
 		"image"		    							"capture_icon"
@@ -46,7 +61,7 @@
 		"ControlName"		  						"Label"
 		"fieldName"		    						"CapNumPlayers"
 		"font"			      						"Size 14"
-		"xpos"			      						"8"
+		"xpos"			      						"10"
 		"ypos"			      						"0"
 		"zpos"			      						"3"
 		"wide"			      						"24"
@@ -59,7 +74,6 @@
 		"textAlignment"								"west"
 		"dulltext"		    						"0"
 		"brighttext"		  						"0"
-		"fgcolor_override"		  					"BlackLight"
 	}
 
 	"OverlayImage"

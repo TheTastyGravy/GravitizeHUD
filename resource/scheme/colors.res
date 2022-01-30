@@ -73,6 +73,7 @@ Scheme
 		"TanDark"											"150 150 150 255"
 		"TanLight"											"230 230 230 255"
 		"TanDarker"											"15 15 15 255"
+		"OutlineBorder"										"0 0 0 100"
 		
 		"StoreDarkTan"										"150 150 150 255"
 		"StoreGreen"										"35 185 30 255"

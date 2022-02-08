@@ -2,6 +2,30 @@ Scheme
 {
 	Colors
 	{
+		"Red"						"255 61 61 255"
+		"DarkRed"					"255 41 41 255"
+		"Blue"						"92 173 255 255"
+		"DarkBlue"					"41 147 255 255"
+		"Green"						"75 210 75 255"
+		"Main Theme"				"80 150 255 255"
+		"WhiteLight"				"227 228 230 255"
+		"White"						"227 228 230 255"
+		"WhiteDark"					"172 173 175 255"
+		"WhiteGray"					"127 128 130 255"
+		"GrayLight"					"77 78 82 255"
+		"GrayMedium"				"62 63 66 255"
+		"GrayDark"					"46 47 51 255"
+		"GrayDarker"				"37 38 40 255"
+		"GrayDarkest"				"27 28 30 255"
+		"BlackLight"				"20 21 23 255"
+		"BlackDark"					"15 16 18 255"
+		"Black"						"0 0 0 255"
+		"TransparentBlack"			"0 0 0 150"
+		"TransparentLightBlack"		"0 0 0 100"
+		"TransparentDarkBlack"		"45 45 45 200"
+		"OutlineBorder"				"0 0 0 100"
+
+
 		"Orange"											"80 150 255 255"
 		"OrangeDim"											"80 150 255 255"
 		"LightOrange"										"80 150 255 255"
@@ -73,7 +97,6 @@ Scheme
 		"TanDark"											"150 150 150 255"
 		"TanLight"											"230 230 230 255"
 		"TanDarker"											"15 15 15 255"
-		"OutlineBorder"										"0 0 0 100"
 		
 		"StoreDarkTan"										"150 150 150 255"
 		"StoreGreen"										"35 185 30 255"

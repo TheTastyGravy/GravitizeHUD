@@ -19,10 +19,10 @@
 	{
 		"ControlName"								"SectionedListPanel"
 		"fieldName"									"MvMPlayerList"
-		"xpos"										"35"
-		"ypos"										"c-50"
+		"xpos"										"42"
+		"ypos"										"c-90"
 		"zpos"										"20"
-		"wide"										"530"
+		"wide"										"516"
 		"tall"										"135"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -37,11 +37,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayerListBackground"
-		"xpos"										"3"
-		"ypos"										"8"
-		"zpos"										"-1"
-		"wide"										"536"
-		"tall"										"141"
+		"xpos"										"1"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"518"
+		"tall"										"133"
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialTransparent50"
@@ -55,8 +55,8 @@
 		"xpos"										"0"
 		"ypos"										"-13"
 		"zpos"										"0"
-		"wide"										"536"
-		"tall"										"28"
+		"wide"										"518"
+		"tall"										"33"
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialRed"
@@ -66,23 +66,7 @@
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
-	"StatsBackground"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"StatsBackground"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"255"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"border"									"MaterialTransparent50"
-		
-		"pin_to_sibling"							"MvMPlayerList"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
+	
 	
 	"PopFileLabel"
 	{
@@ -177,9 +161,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CreditStatsContainer"
 		"xpos"										"0"
-		"ypos"										"-3"
-		"wide"										"536"
-		"tall"										"58"
+		"ypos"										"-4"
+		"zpos"										"1"
+		"wide"										"518"
+		"tall"										"53"
 		"visible"									"1"
 		"border"									"MaterialTransparent50"
 		
@@ -192,22 +177,21 @@
 			"ControlName"							"CCreditDisplayPanel"
 			"fieldName"								"PreviousWaveCreditInfoPanel"
 			"xpos"									"8"
-			"ypos"									"5"
+			"ypos"									"2"
+			"zpos"									"1"
 			"wide"									"125"
-			"tall"									"f0"
-			"wide"									"f0"
+			"tall"									"58"
 			"visible"								"1"
 		}
-		
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"PreviousWaveCreditSpendPanel"
-			"xpos"									"6"
+			"xpos"									"0"
 			"ypos"									"0"
+			"zpos"									"1"
 			"wide"									"125"
-			"tall"									"f0"
-			"wide"									"f0"
+			"tall"									"58"
 			"visible"								"1"
 			
 			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
@@ -219,29 +203,28 @@
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"fieldName"								"TotalGameCreditInfoPanel"
-			"xpos"									"6"
+			"xpos"									"3"
 			"ypos"									"0"
+			"zpos"									"1"
 			"wide"									"125"
-			"tall"									"f0"
-			"wide"									"f0"
+			"tall"									"58"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"PreviousWaveCreditSpendPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-		
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"TotalGameCreditSpendPanel"
-			"xpos"									"6"
+			"xpos"									"0"
 			"ypos"									"0"
+			"zpos"									"1"
 			"wide"									"125"
-			"tall"									"f0"
-			"wide"									"f0"
+			"tall"									"58"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"TotalGameCreditInfoPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -256,6 +239,7 @@
 			"textAlignment" 						"north-east"
 			"xpos"									"115"
 			"ypos"									"8"
+			"zpos"									"1"
 			"wide"									"275"
 			"tall"									"20"
 			"fgcolor"								"tanlight"
@@ -274,5 +258,4 @@
 			"xpos"									"9999"
 		}
 	}
-	
 }

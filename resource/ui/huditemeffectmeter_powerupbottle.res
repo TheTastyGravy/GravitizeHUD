@@ -5,8 +5,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"88"
-		"ypos"										"r35"
+		"xpos"										"c21"
+		"ypos"										"c131"
 		"wide"										"25"
 		"tall"										"36"
 		"MeterFG"									"White"
@@ -21,7 +21,7 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"25"
-		"tall"										"36"
+		"tall"										"34"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
@@ -33,7 +33,7 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectIcon"
 		"xpos"										"4"
-		"ypos"										"4"
+		"ypos"										"3"
 		"zpos"										"1"
 		"wide"										"18"
 		"tall"										"18"
@@ -48,7 +48,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
 		"xpos"										"0"
-		"ypos"										"10"
+		"ypos"										"8"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"35"	
@@ -69,7 +69,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCountShadow"
 		"xpos"										"1"
-		"ypos"										"11"
+		"ypos"										"9"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"35"	
@@ -84,10 +84,7 @@
 		"font"										"Size 12 Blur"
 		"fgcolor_override"							"Shadow"
 	}
-	
-	
-	
-	
+
 	
 	"ItemEffectMeterLabel"
 	{

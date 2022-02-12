@@ -1,46 +1,13 @@
 "Resource/UI/HudMedicCharge.res"
-{	
-	"UBERAnchor"									//Moves the uber bar
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"UBERAnchor"
-		"xpos"										"c-55"
-		"ypos"										"r137"
-		"ypos_minmode"								"r186"
-		"zpos"										"1"
-		"wide"										"1"
-		"tall"										"1"
-		"visible"									"0"
-		"enabled"									"1"
-	}
-	
-	"ChargeMeterBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ChargeMeterBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"zpos"										"1"
-		"wide"										"110"
-		"tall"										"22"
-		"tall_minmode"								"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"border"									"MaterialTransparent50"
-		
-		"pin_to_sibling" 							"UBERAnchor"
-	}
-	
+{
 	"ChargeMeter"
 	{	
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
-		"xpos"										"-5"
-		"ypos"										"-5"
+		"xpos"										"cs-0.5"
+		"ypos"										"c90"
+		"ypos_minmode"								"c61"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"12"
@@ -54,21 +21,20 @@
 		"brighttext"								"0"
 		"fgcolor"									"Full Ubercharge Pulse"
 		"fgcolor_override"							"Full Ubercharge Pulse"
-		"bgcolor_override"							"Blank"
-		
-		"pin_to_sibling" 							"ChargeMeterBG"
+		"bgcolor_override"							"HUDItemEffectBG"
 	}
 	
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"3"
-		"wide"										"110"
-		"tall"										"22"
-		"tall_minmode"								"20"
+		"xpos"										"c96"
+		"xpos_minmode"								"c50"
+		"ypos"										"c70"
+		"ypos_minmode"								"c40"
+		"zpos"										"5"
+		"wide"										"100"
+		"tall"										"50"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -78,29 +44,54 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Game 14"
-		"font_minmode"								"Game 12"
+		"font"										"Size 40 Shadow"
+		"font_minmode"								"Size 30 Shadow"
 		"fgcolor"   								"White"
-		
-		"pin_to_sibling" 							"ChargeMeterBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+	}
+	"IndividualChargesLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"IndividualChargesLabel"
+		"xpos"										"c110"
+		"xpos_minmode"								"c65"
+		"ypos"										"c70"
+		"ypos_minmode"								"c40"
+		"zpos"										"5"
+		"wide"										"40"
+		"tall"										"50"
+		"autoResize"								"1"
+		"pinCorner"									"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"#TF_IndividualUberchargesMinHUD"
+		"textAlignment"								"east"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"Size 40 Shadow"
+		"font_minmode"								"Size 30 Shadow"
+		"fgcolor"   								"White"
 	}
 
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-206"
-		"xpos_minmode"								"c-153"
-		"ypos"										"c98"
-		"ypos_minmode"								"c53"
-		"wide"										"0"
-		"tall"										"0"
+		"xpos"										"-10"
+		"xpos_minmode"								"-20"
+		"ypos"										"-7"
+		"ypos_minmode"								"-13"
+		"wide"										"30"
+		"wide_minmode"								"22"
+		"tall"										"30"
+		"tall_minmode"								"22"
 		"visible"									"1"
 		"enabled"									"1"
+
+		"pin_to_sibling"							"IndividualChargesLabel"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -115,10 +106,7 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
-		
 		"pin_to_sibling"							"ResistIconAnchor"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"ChargeMeter1"
@@ -140,11 +128,10 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"TransparentLightBlack"
+		"bgcolor_override"							"HUDItemEffectBG"
 		
 		"pin_to_sibling" 							"ChargeMeter"
 	}
-
 	"ChargeMeter2"
 	{	
 		"ControlName"								"ContinuousProgressBar"
@@ -164,13 +151,12 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"TransparentLightBlack"
+		"bgcolor_override"							"HUDItemEffectBG"
 		
 		"pin_to_sibling" 							"ChargeMeter1"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-
 	"ChargeMeter3"
 	{	
 		"ControlName"								"ContinuousProgressBar"
@@ -190,13 +176,12 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"TransparentLightBlack"
+		"bgcolor_override"							"HUDItemEffectBG"
 		
 		"pin_to_sibling" 							"ChargeMeter2"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-
 	"ChargeMeter4"
 	{	
 		"ControlName"								"ContinuousProgressBar"
@@ -216,27 +201,19 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"TransparentLightBlack"
+		"bgcolor_override"							"HUDItemEffectBG"
 		
 		"pin_to_sibling" 							"ChargeMeter3"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
-	
-	
+
 	
 	
 	"Background"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Background"
-		"xpos"										"9999"
-	}
-	"IndividualChargesLabel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"IndividualChargesLabel"
 		"xpos"										"9999"
 	}
 	"HealthClusterIcon"

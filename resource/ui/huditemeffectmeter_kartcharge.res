@@ -6,7 +6,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
-		"ypos"										"c150"	
+		"ypos"										"c130"	
 		"wide"										"100"
 		"tall"										"23"
 		"MeterFG"									"White"
@@ -55,6 +55,8 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
+
+		"bgcolor_override"							"HUDItemEffectBG"
 	}
 	
 	"ItemEffectMeterCount"

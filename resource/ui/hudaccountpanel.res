@@ -2,7 +2,7 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"								"130"
+		"delta_item_x"								"0"
 		"delta_item_start_y"						"5"
 		"delta_item_end_y"							"10"
 		"PositiveColor"								"Green"
@@ -31,7 +31,7 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Game 18"
-		"font_minmode"								"Game 16"
+		"font_minmode"								"Game 14"
 		"fgcolor"   								"White"
 	}
 	
@@ -55,7 +55,7 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 16 Blur"
+		"font_minmode"								"Game 14 Blur"
 		"fgcolor"   								"Shadow"
 		
 		"pin_to_sibling" 							"AccountValue"

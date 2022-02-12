@@ -5,7 +5,7 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"xpos"										"cs-0.5"
-		"ypos"										"c113"
+		"ypos"										"c96"
 		"ypos_minmode"								"c65"
 		"zpos"										"2"
 		"wide"										"100"
@@ -16,6 +16,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
+		"bgcolor_override"							"HUDItemEffectBG"
 	}
 	
 	"ChargeLabel"
@@ -50,7 +51,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PipesPresentPanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"c129"
+		"ypos"										"c89"
 		"ypos_minmode"								"c51"
 		"zpos"										"1"
 		"wide"										"30"

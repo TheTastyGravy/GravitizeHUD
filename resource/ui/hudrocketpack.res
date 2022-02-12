@@ -4,7 +4,7 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"										"c116"
+		"ypos"										"c96"
 		"ypos_minmode"								"c65"
 	}
 
@@ -35,6 +35,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor"									"White"
+		"bgcolor_override"							"HUDItemEffectBG"
 		
 		"pin_to_sibling" 							"ItemEffectMeter"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"

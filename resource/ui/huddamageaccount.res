@@ -9,7 +9,7 @@
 		"text_x"									"0"
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
-		"PositiveColor"								"Heal Numbers"
+		"PositiveColor"								"0 0 0 0"
 		"NegativeColor"								"Damage Numbers"
 		"delta_lifetime"							"2"
 	}

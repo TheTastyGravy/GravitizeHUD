@@ -6,7 +6,7 @@
 		"fieldName"									"AMMOAnchor"
 		"xpos"										"c140"
 		"xpos_minmode"								"c95"
-		"ypos"										"c90"
+		"ypos"										"c70"
 		"ypos_minmode"								"c40"
 		"zpos"										"0"
 		"wide"										"2"
@@ -37,8 +37,7 @@
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}	
-	
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -59,7 +58,7 @@
 		"labelText"									"%Ammo%"
 		
 		"pin_to_sibling" 							"AmmoInClip"
-	}	
+	}
 	
 	"AmmoInReserve"
 	{
@@ -83,8 +82,7 @@
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-	}	
-	
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -103,7 +101,7 @@
 		"labelText"									"%AmmoInReserve%"
 		
 		"pin_to_sibling" 							"AmmoInReserve"
-	}	
+	}
 	
 	"AmmoNoClip"
 	{
@@ -128,7 +126,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"								"CExLabel"

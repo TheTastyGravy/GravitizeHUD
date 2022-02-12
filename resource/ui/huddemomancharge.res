@@ -6,7 +6,7 @@
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
 		"xpos"										"cs-0.5"
-		"ypos"										"c124"
+		"ypos"										"c88"
 		"ypos_minmode"								"c74"
 		"zpos"										"2"
 		"wide"										"100"
@@ -18,5 +18,6 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
+		"bgcolor_override"							"HUDItemEffectBG"
 	}					
 }

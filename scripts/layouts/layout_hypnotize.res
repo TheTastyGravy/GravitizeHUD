@@ -67,17 +67,17 @@
 	CHudAccountPanel
 	{
 		"xpos"         								"cs-0.5"
-		"ypos"										"c80"
-		"ypos_minmode"								"c48"
+		"ypos"										"c40"
+		"ypos_minmode"								"c25"
 		"wide"										"200"
 		"tall"  									"30"
 	}
 	
 	CHealthAccountPanel
 	{
-		"xpos"										"c-149"
+		"xpos"										"c-147"
 		"xpos_minmode"								"c-105"
-		"ypos"										"r112"
+		"ypos"										"r130"
 		"ypos_minmode"								"r167"
 		"wide"										"f0"
 		"tall"  									"24"

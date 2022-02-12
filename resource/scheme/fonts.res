@@ -636,6 +636,29 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
+
+		"Size 30 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Size 40 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		
 		"Size 10 Numbers"
 		{

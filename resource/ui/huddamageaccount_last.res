@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageAccountValue"
-		"xpos"										"c-210"
-		"ypos"										"r170"
+		"xpos"										"cs-0.5"
+		"ypos"										"r90"
 		"zpos"										"2"
 		"wide"										"150"
 		"tall"										"25"
@@ -17,7 +17,6 @@
 		"fgcolor"									"Last Damage Done"
 		"font"										"Game 20"
 	}
-	
 	"DamageAccountValueShadow"
 	{
 		"ControlName"								"CExLabel"

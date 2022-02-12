@@ -317,6 +317,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"										"Fira Code"
+				"tall"										"12"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 		
 		"MenuLarge"
 		{
@@ -448,6 +460,11 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
+		}
+		"10"
+		{
+			"font" 		"resource/scheme/fonts/FiraCode-Medium.ttf"
+			"name" 		"Fira Code"
 		}
 	}
 }

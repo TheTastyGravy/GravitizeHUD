@@ -43,7 +43,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"UpgradesLabel"

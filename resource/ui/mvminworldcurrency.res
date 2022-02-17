@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"CurrencyGood"

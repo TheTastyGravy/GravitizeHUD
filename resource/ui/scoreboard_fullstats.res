@@ -41,7 +41,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 		
 		if_mvm
 		{
@@ -163,7 +163,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 
 		"pin_to_sibling" 							"BlueScoreBG"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -468,7 +468,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ServerTimeLeftNew"
-		"font"										"Size 10 Numbers"
+		"font"										"Size 10"
 		"fgcolor"									"220 220 220 255"
 		"labelText"									"%servertime%"
 		"textAlignment"								"center"
@@ -555,7 +555,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"paintbackground"						"0"
-			"border"								"MaterialTransparent50"
+			"border"								"MaterialTransparent70"
 		}
 		"OtherStatsBG"
 		{
@@ -572,7 +572,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"paintbackground"						"0"
-			"border"								"MaterialTransparent50"
+			"border"								"MaterialTransparent70"
 
 			"pin_to_sibling" 						"StatSummaryBG"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"

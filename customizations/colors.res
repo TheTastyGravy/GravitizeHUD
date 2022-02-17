@@ -6,29 +6,37 @@
 		"Crosshair Shadow"	"0 0 0 255"
 		"Crosshair Pulse"	"255 0 0 255"
 		"HitMarker"	"255 0 0 255"
-		"Health Numbers"	"227 228 230 255"
+
 		"Shadow"	"0 0 0 175"
+		
+		"Health Numbers"	"227 228 230 255"
 		"Buffed Health"	"30 175 255 255"
 		"Buffed Health Pulse"	"80 150 255 255"
 		"Buffed Health Spec"	"31 143 255 255"
+
 		"Low Health"	"255 50 50 255"
 		"Low Health Pulse"	"255 0 0 255"
 		"Low Health Spec"	"225 41 41 255"
+
 		"Ammo In Clip"	"227 228 230 255"
 		"Ammo In Reserve"	"227 228 230 255"
 		"Ammo No Clip"	"227 228 230 255"
+
 		"Low Ammo In Clip"	"255 50 50 255"
 		"Low Ammo In Clip Pulse"	"255 0 0 255"
 		"Low Ammo In Reserve"	"255 50 50 255"
 		"Low Ammo In Reserve Pulse"	"255 0 0 255"
 		"Low Ammo No Clip"	"255 50 50 255"
 		"Low Ammo No Clip Pulse"	"255 0 0 255"
+
 		"Full Ubercharge"	"30 175 255 255"
 		"Full Ubercharge Pulse"	"80 150 255 255"
+
 		"Heal Numbers"	"0 255 0 255"
 		"Last Damage Done"	"227 228 230 255"
 		"Health Gained"	"75 210 75 255"
 		"Health Lost"	"255 50 50 255"
+
 		"Normal"	"50 50 50 255"
 		"Genuine"	"115 215 140 255"
 		"Unusual"	"215 145 255 255"
@@ -43,6 +51,7 @@
 		"Haunted"	"0 230 120 255"
 		"Collectors"	"245 70 70 255"
 		"PaintkitWeapon"	"215 215 215 255"
+
 		"GradedWeaponDefault"	"190 190 190 255"
 		"CivilianGrade"	"195 220 255 255"
 		"FreelanceGrade"	"115 200 255 255"
@@ -50,6 +59,7 @@
 		"CommandoGrade"	"160 125 255 255"
 		"AssassinGrade"	"245 150 255 255"
 		"EliteGrade"	"255 130 130 255"
+
 		"Normal_Hover"	"40 40 40 255"
 		"Genuine_Hover"	"105 205 130 255"
 		"Unusual_Hover"	"205 135 245 255"
@@ -64,6 +74,7 @@
 		"Haunted_Hover"	"0 220 110 255"
 		"Collectors_Hover"	"235 60 60 255"
 		"PaintkitWeapon_Hover"	"225 225 225 255"
+
 		"GradedWeaponDefault_Hover"	"180 180 180 255"
 		"CivilianGrade_Hover"	"185 210 245 255"
 		"FreelanceGrade_Hover"	"105 190 245 255"

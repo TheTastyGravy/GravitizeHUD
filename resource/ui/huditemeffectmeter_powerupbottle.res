@@ -94,6 +94,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"Size 12 Blur"
+		"font_minmode"								"Size 10 Blur"
 		"fgcolor_override"							"Shadow"
 	}
 

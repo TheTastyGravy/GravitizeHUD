@@ -15,7 +15,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Last Damage Done"
-		"font"										"Game 20"
+		"font"										"Size 20"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -32,7 +32,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"font"										"Game 20 Blur"
+		"font"										"Size 20 Blur"
 		
 		"pin_to_sibling" 							"DamageAccountValue"
 	}

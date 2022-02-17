@@ -17,8 +17,13 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"150"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 		
 		"TimePanelValue"
 		{
@@ -48,8 +53,13 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"150"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 		
 		"TimePanelValue"
 		{

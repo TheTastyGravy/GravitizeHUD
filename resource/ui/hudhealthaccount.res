@@ -9,6 +9,6 @@
 		"PositiveColor"								"Health Gained"
 		"NegativeColor"								"Health Lost"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Game 12"
+		"delta_item_font"							"Size 12"
 	}
 }

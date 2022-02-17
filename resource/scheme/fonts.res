@@ -8,298 +8,7 @@ Scheme
 	
 	Fonts
 	{
-		"Game 12"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 14"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 15"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 16"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 18"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 20"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 22"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 24"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 30"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Game 40"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		
-		"Game 12 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 14 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 15 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 16 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 18 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 20 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 22 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 24 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Game 30 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Game 40 Blur"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		
-		"Game 18 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Game 22 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Game 24 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Game 28 Shadow"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-
-		"Game 18 Outline"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"Game 22 Outline"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"Game 28 Outline"
-		{
-			"1"
-			{
-				"name"										"Rubik SemiBold"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		
-		"Size 7"
+        "Size 7"
 		{
 			"1"
 			{
@@ -469,7 +178,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 44"
+        "Size 44"
 		{
 			"1"
 			{
@@ -479,7 +188,29 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
+        "Size 7 Blur"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"7"
+				"additive"									"0"
+				"antialias"									"1"
+                "blur"										"2"
+			}
+		}
+		"Size 8 Blur"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias"									"1"
+                "blur"										"2"
+			}
+		}
 		"Size 9 Blur"
 		{
 			"1"
@@ -488,7 +219,7 @@ Scheme
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
 			}
 		}
 		"Size 10 Blur"
@@ -499,7 +230,7 @@ Scheme
 				"tall"										"10"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
 			}
 		}
 		"Size 11 Blur"
@@ -510,7 +241,7 @@ Scheme
 				"tall"										"11"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
 			}
 		}
 		"Size 12 Blur"
@@ -521,7 +252,7 @@ Scheme
 				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
 			}
 		}
 		"Size 14 Blur"
@@ -532,7 +263,18 @@ Scheme
 				"tall"										"14"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
+			}
+		}
+		"Size 15 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"15"
+				"additive"									"0"
+				"antialias"									"1"
+                "blur"										"2"
 			}
 		}
 		"Size 16 Blur"
@@ -543,7 +285,7 @@ Scheme
 				"tall"										"16"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
 			}
 		}
 		"Size 18 Blur"
@@ -554,7 +296,7 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"1"
+                "blur"										"2"
 			}
 		}
 		"Size 20 Blur"
@@ -565,7 +307,18 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+                "blur"										"2"
+			}
+		}
+		"Size 22 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+                "blur"										"2"
 			}
 		}
 		"Size 24 Blur"
@@ -576,7 +329,18 @@ Scheme
 				"tall"										"24"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+                "blur"										"2"
+			}
+		}
+		"Size 28 Blur"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias"									"1"
+                "blur"										"2"
 			}
 		}
 		"Size 30 Blur"
@@ -587,7 +351,7 @@ Scheme
 				"tall"										"30"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+                "blur"										"2"
 			}
 		}
 		"Size 36 Blur"
@@ -598,7 +362,7 @@ Scheme
 				"tall"										"36"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+                "blur"										"2"
 			}
 		}
 		"Size 40 Blur"
@@ -609,11 +373,43 @@ Scheme
 				"tall"										"40"
 				"additive"									"0"
 				"antialias"									"1"
-				"blur"										"2"
+                "blur"										"2"
 			}
 		}
-		
-		
+
+        "Size 7 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"7"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 8 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 9 Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"9"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
 		"Size 10 Shadow"
 		{
 			"1"
@@ -622,7 +418,18 @@ Scheme
 				"tall"										"10"
 				"additive"									"0"
 				"antialias"									"1"
-				"dropshadow"								"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 11 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
 			}
 		}
 		"Size 12 Shadow"
@@ -633,10 +440,97 @@ Scheme
 				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
-				"dropshadow"								"1"
+                "dropshadow"								"1"
 			}
 		}
-
+		"Size 14 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 15 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"15"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 16 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 18 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 20 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 22 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 24 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 28 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
+			}
+		}
 		"Size 30 Shadow"
 		{
 			"1"
@@ -645,7 +539,18 @@ Scheme
 				"tall"										"30"
 				"additive"									"0"
 				"antialias"									"1"
-				"dropshadow"								"1"
+                "dropshadow"								"1"
+			}
+		}
+		"Size 36 Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik Medium"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias"									"1"
+                "dropshadow"								"1"
 			}
 		}
 		"Size 40 Shadow"
@@ -656,16 +561,37 @@ Scheme
 				"tall"										"40"
 				"additive"									"0"
 				"antialias"									"1"
-				"dropshadow"								"1"
+                
 			}
 		}
-		
+
+        
 		"Size 10 Numbers"
 		{
 			"1"
 			{
 				"name"										"Rubik Numbers"
 				"tall"										"10"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 11 Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik Numbers"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 12 Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik Numbers"
+				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
 			}
@@ -680,8 +606,53 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
-		"UltraSmall"
+		"Size 15 Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik Numbers"
+				"tall"										"15"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 16 Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik Numbers"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 18 Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik Numbers"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Size 20 Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik Numbers"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+
+
+        //////////////////////////////////////////////////////////////////
+		//////////////////// DEFAULT FONTS //////////////////////////////
+        ////// MANY OF THESE ARE PROBABLY NOT EVEN BEING USED ///////////
+        //////////////////////////////////////////////////////////////////
+        "UltraSmall"
 		{
 			"1"
 			{
@@ -692,7 +663,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
 		"Default"
 		{
 			"1"
@@ -809,7 +779,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"HudFontBiggerBold"
 		{
 			"1"
@@ -821,7 +790,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"HudFontBig"
 		{
 			"1"
@@ -843,7 +811,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -854,7 +822,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -931,7 +899,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -1011,6 +979,10 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
+        //
+		//////////////////// STORE FONTS //////////////////////////////
+		//
 		"StorePromotionsTitle"
 		{
 			"1"
@@ -1077,6 +1049,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
 		"TextTooltipFont"
 		{
 			"1"
@@ -1330,6 +1303,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -1409,6 +1383,7 @@ Scheme
 				"range"										"0x0000 0x007F"
 			}
 		}
+
 		"MenuMainTitle"
 		{
 			"1"
@@ -1450,7 +1425,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		
 		"ChalkboardTitle"
 		{
@@ -1497,6 +1472,10 @@ Scheme
 				"weight"									"500"
 			}
 		}
+
+        //
+		//////////////////// SCOREBOARD FONTS //////////////////////////////
+		//
 		"ScoreboardSmallest"
 		{
 			"1"
@@ -1602,7 +1581,6 @@ Scheme
 				"additive"									"0"
 			}
 		}
-
 		"ScoreboardTeamScoreNew"
  		{
 			"1"
@@ -1662,6 +1640,10 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
+        //
+		//////////////////// MATCH SUMMARY FONTS //////////////////////////////
+		//
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -1707,6 +1689,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
 		"ControlPointTimer"
 		{
 			"1"
@@ -1785,6 +1768,10 @@ Scheme
 				"dropshadow"								"0"
 			}
 		}
+
+        //
+		//////////////////// CHAT FONTS //////////////////////////////
+		//
 		"ChatFont"
 		{
 			"1"
@@ -1882,8 +1869,7 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}	
-		
+		}
 		MenuSmallFont
 		{
 			"1"
@@ -1894,7 +1880,7 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -1930,7 +1916,7 @@ Scheme
 				"additive"									"1"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -1941,7 +1927,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		
 		InstructionalText
 		{
@@ -1954,7 +1940,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		
 		MatchmakingDialogTitle
 		{
@@ -2000,7 +1986,7 @@ Scheme
 				"tall"										"18"
 				"weight"									"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -2068,7 +2054,8 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
+
 		"IntroMenuCaption"
 		{
 			"1"
@@ -2079,7 +2066,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -2156,6 +2143,9 @@ Scheme
 			}
 		}
 		
+        //
+		//////////////////// ITEM FONTS //////////////////////////////
+		//
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2242,7 +2232,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -2255,6 +2245,9 @@ Scheme
 			}
 		}
 		
+        //
+		//////////////////// ACHIEVEMENT & QUEST TRACKER //////////////////////////////
+		//
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2333,6 +2326,9 @@ Scheme
 			}
 		}
 
+        //
+		//////////////////// QUEST STUFF //////////////////////////////
+		//
 		"QuestFlavorText"
 		{
 			"1"
@@ -2363,7 +2359,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-
 		"QuestObjectiveText"
 		{
 			"1"
@@ -2394,7 +2389,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
 		"QuestLargeText"
 		{
 			"1"
@@ -2406,7 +2400,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"QuestStickyText"
 		{
 			"1"
@@ -2449,7 +2442,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-
 		"QuestFlavorText_Merasmus"
 		{
 			"1"
@@ -2483,7 +2475,6 @@ Scheme
 				"italic"									"1"
 			}
 		}
-
 		"QuestObjectiveText_Merasmus"
 		{
 			"1"
@@ -2514,7 +2505,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-
 		"QuestMediumText_Merasmus"
 		{
 			"1"
@@ -2526,7 +2516,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2550,7 +2539,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
 		"AdFont_AdText"
 		{
 			"1"
@@ -2584,7 +2572,6 @@ Scheme
 				"additive"									"0"
 			}
 		}
-
 		"TradeUp_Quote"
 		{
 			"1"
@@ -2805,7 +2792,6 @@ Scheme
 				"additive"									"0"
 			}
 		}
-
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -2817,7 +2803,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"XPSource"
 		{
 			"1"
@@ -2828,7 +2813,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"XPSource_Glow"
 		{
 			"1"
@@ -2841,12 +2825,11 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"MapVotesPercentage"
 		{
 			"1"
 			{
-				"name"										"Rubik Medium"
+				"name"										"HanGoth"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -2867,7 +2850,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"QuestMap_Small"
 		{
 			"1"
@@ -2879,7 +2861,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"QuestMap_Medium"
 		{
 			"1"
@@ -2891,7 +2872,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"QuestMap_Large"
 		{
 			"1"
@@ -2903,7 +2883,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-
 		"QuestMap_Huge"
 		{
 			"1"
@@ -2915,26 +2894,21 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-	}
-	
-	CustomFontFiles
+    }
+
+    CustomFontFiles
 	{
 		"20"
 		{
 			"font" 		"resource/scheme/fonts/rubik-medium.otf"
 			"name" 		"Rubik Medium"
 		}
-		"21"
+        "21"
 		{
 			"font" 		"resource/scheme/fonts/rubik-numbers.otf"
 			"name" 		"Rubik Numbers"
 		}
 		"22"
-		{
-			"font" 		"resource/scheme/fonts/rubik-semibold.otf"
-			"name" 		"Rubik SemiBold"
-		}
-		"23"
 		{
 			"font" 		"resource/scheme/fonts/product.ttf"
 			"name" 		"Product Sans"

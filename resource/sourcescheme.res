@@ -322,7 +322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Fira Code"
+				"name"										"Fira Code Medium"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -464,7 +464,7 @@ Scheme
 		"10"
 		{
 			"font" 		"resource/scheme/fonts/FiraCode-Medium.ttf"
-			"name" 		"Fira Code"
+			"name" 		"Fira Code Medium"
 		}
 	}
 }

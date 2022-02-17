@@ -8,7 +8,7 @@
 		"PositiveColor"								"Green"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Game 14"
+		"delta_item_font"							"Size 14"
 	}
 	
 	"AccountValue"
@@ -30,8 +30,8 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-		"font"										"Game 18"
-		"font_minmode"								"Game 14"
+		"font"										"Size 18"
+		"font_minmode"								"Size 14"
 		"fgcolor"   								"White"
 	}
 	
@@ -54,8 +54,8 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-		"font"										"Game 18 Blur"
-		"font_minmode"								"Game 14 Blur"
+		"font"										"Size 18 Blur"
+		"font_minmode"								"Size 14 Blur"
 		"fgcolor"   								"Shadow"
 		
 		"pin_to_sibling" 							"AccountValue"

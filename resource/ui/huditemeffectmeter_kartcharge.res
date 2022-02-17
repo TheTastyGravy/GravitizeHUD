@@ -34,7 +34,6 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"Size 8"
-		"fgcolor_override"							"White"
 	}
 
 	"ItemEffectMeter"
@@ -46,7 +45,7 @@
 		"ypos"										"rs1-8"
 		"zpos"										"2"
 		"wide"										"80"
-		"tall"										"2"				
+		"tall"										"3"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"

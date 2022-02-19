@@ -9,7 +9,7 @@
 		"ypos"										"-5"
 		"zpos"										"10001"
 		"wide"										"f0"
-		"tall"										"35"
+		"tall"										"29"
 		"keyboardinputenabled"						"0"
 
 		"collapsed_height"							"0"
@@ -234,7 +234,7 @@
 			"ypos"									"-50"
 			"zpos"									"111"
 			"wide"									"220"
-			"tall"									"35"
+			"tall"									"f0"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
@@ -246,7 +246,7 @@
 				"ypos"								"0"
 				"zpos"								"0"
 				"wide"								"220"
-				"tall"								"35"
+				"tall"								"30"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
@@ -257,11 +257,11 @@
 			{
 				"ControlName"						"CTFLogoPanel"
 				"fieldname"							"CTFLogoPanel"
-				"xpos"								"cs-0.5"
+				"xpos"								"0"
 				"ypos"								"1"
 				"zpos"								"5"
 				"wide"								"o1"
-				"tall"								"30"
+				"tall"								"f0"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 

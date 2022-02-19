@@ -9,7 +9,7 @@
 		"ypos"										"-5"
 		"zpos"										"10001"
 		"wide"										"f0"
-		"tall"										"29"
+		"tall"										"35"
 		"keyboardinputenabled"						"0"
 
 		"collapsed_height"							"0"
@@ -234,7 +234,7 @@
 			"ypos"									"-50"
 			"zpos"									"111"
 			"wide"									"220"
-			"tall"									"f0"
+			"tall"									"35"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
@@ -246,7 +246,7 @@
 				"ypos"								"0"
 				"zpos"								"0"
 				"wide"								"220"
-				"tall"								"30"
+				"tall"								"35"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
@@ -257,11 +257,11 @@
 			{
 				"ControlName"						"CTFLogoPanel"
 				"fieldname"							"CTFLogoPanel"
-				"xpos"								"0"
+				"xpos"								"cs-0.5"
 				"ypos"								"1"
 				"zpos"								"5"
 				"wide"								"o1"
-				"tall"								"f0"
+				"tall"								"30"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
@@ -269,6 +269,34 @@
 				"velocity"							"100"
 
 				"fgcolor_override"					"TFOrange"
+			}
+			"QueueLogoButton"
+			{
+				"ControlName"				"Button"
+				"fieldName"					"QueueLogoButton"
+				"xpos"						"0"
+				"ypos"						"1"
+				"zpos"						"10"
+				"wide"						"o1"
+				"tall"						"f0"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"enabled"					"1"
+				"tabPosition"				"0"
+				"labeltext"					""
+				"font"						"HudFontSmallBold"
+				"textAlignment"				"center"
+				"dulltext"					"0"
+				"brighttext"				"0"
+				"default"					"1"
+				"Command"					"queue_logo_clicked"
+				"proportionaltoparent"		"1"
+				"actionsignallevel"			"3"
+				"button_activation_type"	"1"
+
+				"paintbackground"			"0"
+				"paintborder"				"0"				
 			}
 
 			"QueueText"
@@ -383,12 +411,6 @@
 			{
 				"ControlName"						"Panel"
 				"fieldName"							"OuterShadow"
-				"xpos"								"9999"
-			}
-			"QueueLogoButton"
-			{
-				"ControlName"						"Button"
-				"fieldName"							"QueueLogoButton"
 				"xpos"								"9999"
 			}
 		}

@@ -91,7 +91,7 @@
 		"wrap"			"0"
 		"font"			"Size 20 Blur"
 		"font_minmode"	"Size 14 Blur"
-		"fgcolor"		"Black"
+		"fgcolor"		"Shadow"
 		"pin_to_sibling" 	"WaitingForPlayersLabel"
 
 		if_match
@@ -134,7 +134,7 @@
 		"ypos"			"-1"
 		"zpos"			"4"
 		"wide"			"200"
-		"tall"			"17"
+		"tall"			"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -144,7 +144,7 @@
 		"wrap"			"0"
 		"font"			"Size 20 Blur"
 		"font_minmode"	"Size 14 Blur"
-		"fgcolor"		"Black"
+		"fgcolor"		"Shadow"
 		"pin_to_sibling" 	"OvertimeLabel"
 
 		if_match
@@ -197,7 +197,7 @@
 		"wrap"			"0"
 		"font"			"Size 20 Blur"
 		"font_minmode"	"Size 14 Blur"
-		"fgcolor"		"Black"
+		"fgcolor"		"Shadow"
 		"pin_to_sibling" 	"SuddenDeathLabel"
 
 		if_match
@@ -250,7 +250,7 @@
 		"wrap"			"0"
 		"font"			"Size 20 Blur"
 		"font_minmode"	"Size 14 Blur"
-		"fgcolor"		"Black"
+		"fgcolor"		"Shadow"
 		"pin_to_sibling" 	"SetupLabel"
 
 		if_match

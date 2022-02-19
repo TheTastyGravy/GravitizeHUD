@@ -1322,7 +1322,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"ExtraText"
 			"font"									"Size 10"
-			"labelText"								"placeholder"
+			"labelText"								"Tasty HUD"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"4"

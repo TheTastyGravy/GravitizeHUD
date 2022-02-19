@@ -12,7 +12,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"7"
 				"additive"									"0"
 				"antialias"									"1"
@@ -22,7 +22,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias"									"1"
@@ -32,7 +32,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
@@ -193,7 +193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"7"
 				"additive"									"0"
 				"antialias"									"1"
@@ -204,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias"									"1"
@@ -215,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
@@ -381,7 +381,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"7"
 				"additive"									"0"
 				"antialias"									"1"
@@ -392,7 +392,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"additive"									"0"
 				"antialias"									"1"
@@ -403,7 +403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1491,7 +1491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
@@ -2150,7 +2150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2161,7 +2161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2194,7 +2194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2205,7 +2205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"antialias" 								"1"
 				"weight"									"500"
@@ -2215,7 +2215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"Rubik Medium"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2829,7 +2829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HanGoth"
+				"name"										"Rubik Medium"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"

@@ -131,7 +131,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"sb24"
+		"font"			"Size 24"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"60"
@@ -145,7 +145,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"vWhite255"
+		"fgcolor"		"255 255 255 255"
 
 		if_readymode
 		{
@@ -157,7 +157,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"sb24"
+		"font"			"Size 24 Blur"
 		"xpos"			"cs-0.5+1"
 		"ypos"			"cs-0.1+1"
 		"wide"			"60"
@@ -170,7 +170,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"vBlack255"
+		"fgcolor"		"Shadow"
 		"proportionaltoparent"	"1"
 	
 		if_readymode
@@ -378,23 +378,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-
 		"max_size"	"20"
-		"max_size_minmode"	"16"
-
-		"6v6_gap"	"4"
-		"6v6_gap_minmode"	"1"
+		"6v6_gap"	"3"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-52"
-		"team1_max_expand"	"210"
-		"team1_max_expand_minmode"	"180"
+		"team1_max_expand"	"180"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c52"
-		"team2_max_expand"	"210"
-		"team2_max_expand_minmode"	"180"
+		"team2_max_expand"	"180"
 
 		"playerpanels_kv"
 		{
@@ -427,9 +421,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"21"
-				"tall_minmode"	"18"
-
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
@@ -444,7 +436,6 @@
 				"zpos"			"3"
 				"wide"			"18"
 				"tall"			"18"
-
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -465,13 +456,10 @@
 				"zpos"				"5"
 				"wide"				"f0"
 				"tall"				"4"
-
 				"visible"			"0"
-				"visible_minmode"	"0"
-
 				"font"				"UltraSmall"
 				"labelText"			"%playername%"
-				"textAlignment"		"center"
+				"textAlignment"		"west"
 				"textinsetx"		"1"
 
 				"bgcolor_override"					"TransparentBlack"
@@ -491,8 +479,7 @@
 				"ypos"					"0"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"3"
-				"tall_minmode"			"1"		
+				"tall"					"3"	
 
 				"autoResize"			"0"
 				"pinCorner"				"0"
@@ -519,7 +506,6 @@
 				"zpos"					"6"
 				"wide"					"f0"
 				"tall"					"3"
-				"tall_minmode"			"1"
 
 				"autoResize"			"0"
 				"pinCorner"				"0"
@@ -537,7 +523,7 @@
 
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
+				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
@@ -556,7 +542,7 @@
 			}
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -571,30 +557,11 @@
 				"scaleImage"	"1"
 			}
 
-			"respawntimenormal"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimenormal"
-				"font"			"s10"
-				"xpos"			"cs-0.5"
-				"zpos"			"5"
-				"wide"			"f0"
-				"tall"			"19"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
-				"fgcolor_override"	"vWhite255"
-				"fgcolor_override_minmode" "0 0 0 0"
-			}
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"s10"
-				"font_minmode"	"s16"
+				"font"			"Size 10"
 				"xpos"			"cs-0.5"
 				"zpos"			"5"
 				"wide"			"f0"
@@ -605,16 +572,16 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
-				"fgcolor_override"	"0 0 0 0"
-				"fgcolor_override_minmode"	"vWhite255"
+				"fgcolor_override"	"255 255 255 255"
 			}
 			"respawntimeshadow"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeshadow"
-				"font"			"s16"
-				"xpos"			"cs-0.5+1"
-				"ypos"			"5"
+				"font"			"Size 10 Blur"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"4"
 				"wide"			"f0"
 				"tall"			"19"
 				"autoResize"	"0"
@@ -623,8 +590,40 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
-				"fgcolor_override"	"0 0 0 0"
-				"fgcolor_override_minmode"	"vBlack255"
+				"fgcolor_override"	"0 0 0 220"
+				
+				"pin_to_sibling" 			"respawntime"
+			}
+
+			"DeathPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DeathPanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"f0+2"
+				"tall"			"14"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status"	
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+			"SkullPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SkullPanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"2"
+				"zpos"			"2"
+				"wide"			"7"
+				"tall"			"7"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status_skull"	
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"	
 			}
 			
 			"chargeamount"
@@ -660,35 +659,6 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
-			}
-			"DeathPanel"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"DeathPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"image"			"../HUD/comp_player_status"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
-			}
-			"SkullPanel"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SkullPanel"
-				"xpos"			"cs-0.5"
-				"zpos"			"10"
-				"wide"			"7"
-				"tall"			"7"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
 			}
 		}
 	}

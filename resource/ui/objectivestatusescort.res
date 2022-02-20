@@ -7,7 +7,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-2"
 		"zpos"										"1"
-		"wide"										"210"
+		"wide"										"228"
 		"tall"										"43"
 		"visible"									"1"
 		"enabled"									"1"
@@ -74,7 +74,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 
-		"if_multiple_trains_bottom"
+		"if_multiple_trains_top"
 		{
 			"tall"									"0"
 		}
@@ -86,8 +86,8 @@
 		"fieldName"									"HomeCPIcon"
 		"xpos"										"0"
 		"ypos"										"cs-0.5"
-		"zpos"										"10"
-		"wide"										"5"
+		"zpos"										"50"
+		"wide"										"14"
 		"tall"										"14"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -98,29 +98,23 @@
 		"scaleImage"								"1"	
 		"proportionaltoparent"						"1"
 
-		"image"										"../hud/cart_point_blue"
+		"image"										"../hud/cart_home_blue"
 		"if_team_red"
 		{
-			"image"									"../hud/cart_point_red"
+			"image"									"../hud/cart_home_red"
 		}
 		"if_multiple_trains_red"
 		{
-			"image"									"../hud/cart_point_red"
+			"image"									"../hud/cart_home_red"
 		}
 		"if_multiple_trains_blue"
 		{
-			"image"									"../hud/cart_point_blue"
+			"image"									"../hud/cart_home_blue"
 		}
 
-		"if_multiple_trains_top"
-		{
-			"tall"									"7"
-			"ypos"									"cs-1"
-		}
 		"if_multiple_trains_bottom"
 		{
-			"tall"									"7"
-			"ypos"									"cs-0"
+			"tall"									"0"
 		}
 	}
 	
@@ -159,8 +153,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"EscortItemPanel"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"400"
 		"tall"										"f0"
@@ -310,7 +304,7 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"	
 			"xpos"									"197"
-			"ypos"									"3"
+			"ypos"									"2"
 			"zpos"									"30"
 			"wide"									"6"
 			"tall"									"6"
@@ -331,7 +325,7 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"	
 			"xpos"									"197"
-			"ypos"									"2"
+			"ypos"									"1"
 			"zpos"									"30"
 			"wide"									"7"
 			"tall"									"7"

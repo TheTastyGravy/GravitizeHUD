@@ -146,7 +146,25 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
+	}
+	
+	"TastyHUD"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TastyHUD"
+		"font"										"Size 22"
+		"fgcolor"   								"GrayDarker"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1+4"
+		"zpos"										"10"
+		"wide"										"200"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"AllCaps"									"1"
+		"labelText"									"Tasty HUD"
+		"textAlignment"								"center"
+	}
 	
 	"NotificationsPresentPanel"
 	{

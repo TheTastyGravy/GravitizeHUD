@@ -12,9 +12,9 @@
 		"tall"										"29"
 		"keyboardinputenabled"						"0"
 
-		"collapsed_height"							"0"
+		"collapsed_height"							"29"
 		"expanded_height"							"29"
-		"resize_time"								"0.2"
+		"resize_time"								"0"
 	}
 	
 	"TopBar"
@@ -559,7 +559,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialGrayDarker"
+			"border_default"						"MaterialGrayRed"
 			"border_armed"							"MaterialRed"
 			
 			"defaultFgColor_override"				"White"
@@ -602,7 +602,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialGrayDarker"
+			"border_default"						"MaterialGrayRed"
 			"border_armed"							"MaterialRed"
 			
 			"defaultFgColor_override"				"White"
@@ -621,20 +621,20 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"26"
+			"wide"									"89"
 			"tall"									"22"
 			"autoResize"							"0"
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"font"									"Symbols 18"
-			"textAlignment"							"center"
+			"font"									"Size 12"
+			"textAlignment"							"east"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
-			"labeltext"								"!"
+			"labeltext"								"FIND A GAME  "
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -644,7 +644,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"MaterialGrayDarker"
+			"border_default"						"MaterialGrayDark"
 			"border_armed"							"MaterialHypno"
 			
 			"defaultFgColor_override"				"White"
@@ -654,16 +654,24 @@
 			"pin_to_sibling" 						"DashboardAnchor"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"xpos"								"6"
+				"ypos"								"5"
+				"zpos"								"1"
+				"wide"								"12"
+				"tall"								"12"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+				"proportionaltoparent"				"1"
+				"image"								"glyph_multiplayer"
+				"drawcolor_override" 				"White"
+			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		

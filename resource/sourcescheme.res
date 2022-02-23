@@ -323,7 +323,7 @@ Scheme
 			"1"
 			{
 				"name"										"Fira Code Medium"
-				"tall"										"12"
+				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"

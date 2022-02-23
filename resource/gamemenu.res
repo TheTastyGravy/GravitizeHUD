@@ -6,16 +6,6 @@
 	/////////////////////////////////////////////////MAIN BUTTONS/////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"Servers"
-	{
-		"label" 									"SERVERS"
-		"command" 									"OpenServerBrowser"
-	}
-	"Create"
-	{
-		"label"										"CREATE"
-		"command"									"OpenCreateMultiplayerGameDialog"
-	}
 	"Items"
 	{
 		"label"										"ITEMS"
@@ -31,6 +21,16 @@
 		"label"										"OPTIONS"
 		"command"									"OpenOptionsDialog"
 	}
+	"Create"
+	{
+		"label"										"CREATE"
+		"command"									"OpenCreateMultiplayerGameDialog"
+	}
+	"Servers"
+	{
+		"label" 									"SERVERS"
+		"command" 									"OpenServerBrowser"
+	}
 	"AdvancedSettings"
 	{
 		"label"										"ADVANCED"
@@ -41,6 +41,11 @@
 		"label"										"CONSOLE"
 		"command"									"engine con_enable 1; toggleconsole"
 	}
+	"Contracker"
+	{
+		"label" 									"CONTRACTS"
+		"command" 									"questlog"
+	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////IN-GAME ONLY BUTTONS/////////////////////////////////////////////
@@ -50,83 +55,28 @@
 	{
 		"label"										"y"
 		"command"									"callvote"
+		"tooltip" 									"Call Vote"
 		"OnlyInGame" 								"1"
 	}
 	"Mute"
 	{
 		"label"										"h"
 		"command"									"OpenMutePlayerDialog"
+		"tooltip" 									"Mute Player"
 		"OnlyInGame" 								"1"
 	}
 	"Report"
 	{
-		"label"										"f"
+		"label"										"I"
 		"command"									"OpenReportPlayerDialog"
+		"tooltip" 									"Report Player"
 		"OnlyInGame"								"1"
-	}
-	"Minmode"
-	{
-		"label"										"MINMODE"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
-	
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////////////////////BOTTOM MENU BUTTONS/////////////////////////////////////////////
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	"Contracker"
-	{
-		"label" 									"B"
-		"command" 									"questlog"
-		"tooltip" 									"Contracker"
-	}
-	"Streams"
-	{
-		"label" 									"0"
-		"command" 									"watch_stream"
-		"tooltip" 									"Streams"
-	}
-	"HomeServer"
-	{
-		"label" 									"n"
-		"command" 									"engine" 				//"engine connect *server ip*"
-		"tooltip" 									"Favorite Server"
-	}
-	"DemoUI"
-	{
-		"label" 									"F"
-		"command" 									"engine demoui"
-		"tooltip" 									"DemoUI"
-	}
-	"Achievements"
-	{
-		"label"										"V"
-		"command"									"OpenAchievementsDialog"
-		"tooltip" 									"Achievements"
-	}
-	"Replays"
-	{
-		"label"										"^"
-		"command"									"engine replay_reloadbrowser"
-		"tooltip" 									"Replays"
-	}
-	"Workshop"
-	{
-		"label"										"{"
-		"command"									"engine OpenSteamWorkshopDialog"
-		"tooltip" 									"Workshop"
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////IN-GAME TOOLS////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"ToolsBG"
-	{
-		"command" 									"engine"
-		"OnlyInGame"								"1"
-	}
 	"ReloadScheme"
 	{
 		"label" 									"/"
@@ -134,18 +84,11 @@
 		"tooltip" 									"Reload Hud"
 		"OnlyInGame"								"1"
 	}
-	"ClosedCaptionsON"
+	"Minmode"
 	{
-		"label" 									"3"
-		"command" 									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
-		"tooltip" 									"Closed Captions ON"
-		"OnlyInGame"								"1"
-	}
-	"ClosedCaptionsOFF"
-	{
-		"label" 									"3"
-		"command" 									"engine closecaption 0; cc_predisplay_time 0"
-		"tooltip" 									"Closed Captions OFF"
+		"label"										")"
+		"command"									"engine toggle cl_hud_minmode"
+		"tooltip" 									"Toggle Minmode"
 		"OnlyInGame"								"1"
 	}
 	"SoundFix"
@@ -160,27 +103,6 @@
 		"label" 									"P"
 		"command" 									"engine stop; record fix"
 		"tooltip" 									"Fix Invisible Players"
-		"OnlyInGame"								"1"
-	}
-	"NetgraphToggle"
-	{
-		"label" 									"4"
-		"command" 									"engine toggle net_graph 1 0"
-		"tooltip" 									"Netgraph ON/OFF"
-		"OnlyInGame"								"1"
-	}
-	"MatchStatusToggle"
-	{
-		"label" 									"M"
-		"command" 									"engine toggle tf_use_match_hud"
-		"tooltip" 									"MatchStatus ON/OFF"
-		"OnlyInGame"								"1"
-	}
-	"ChatToggle"
-	{
-		"label" 									"Z"
-		"command" 									"engine toggle hud_saytext_time 6 0"
-		"tooltip" 									"Chat ON/OFF"
 		"OnlyInGame"								"1"
 	}
 }

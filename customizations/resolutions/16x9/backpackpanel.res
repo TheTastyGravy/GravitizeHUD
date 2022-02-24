@@ -2,16 +2,16 @@
 {
 	"backpack_panel"
 	{
-		"item_ypos"									"50"
-		"item_backpack_offcenter_x"					"-352"
+		"item_ypos"									"49"
+		"item_backpack_offcenter_x"					"-354"
 		"page_button_y"								"333"
 		"page_button_per_row" 						"25"
 		
 		"modelpanels_kv"
 		{
-			"wide"									"72"
-			"tall"									"57"
-			"model_tall"							"43"
+			"wide"									"69"
+			"tall"									"54"
+			"model_tall"							"36"
 		}
 	}
 	
@@ -19,7 +19,7 @@
 	{
 		"xpos"										"cs-0.5"
 		"ypos"										"c-155"
-		"wide"										"712"
+		"wide"										"716"
 		"tall"										"286"
 	}
 

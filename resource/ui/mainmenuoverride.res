@@ -249,7 +249,7 @@
 		"tall"										"45"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay\thumbnails\raysfox\shock"
+		//"image"										"replay\thumbnails\raysfox\shock"
 		"scaleImage"								"1"
 		"proportionaltoparent" 						"1"
 	}

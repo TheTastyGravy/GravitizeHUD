@@ -22,8 +22,8 @@
 		"item_ypos"									"60"
 		"item_ydelta"								"80"
 		"item_backpack_offcenter_x"					"-352"
-		"item_backpack_xdelta"						"-2"
-		"item_backpack_ydelta"						"-2"
+		"item_backpack_xdelta"						"2"
+		"item_backpack_ydelta"						"2"
 
 		"modelpanels_selection_kv"
 		{
@@ -227,7 +227,7 @@
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-1"
 		"zpos"										"1"
 		"wide"										"50"
 		"tall"										"24"

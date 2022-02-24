@@ -1353,7 +1353,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1376,7 +1376,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1389,7 +1389,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"BlackDark"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
@@ -1402,7 +1402,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1415,7 +1415,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1429,7 +1429,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1441,7 +1441,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1453,7 +1453,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1465,7 +1465,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1477,7 +1477,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1491,7 +1491,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unique"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1503,7 +1503,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unique_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1515,7 +1515,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unique_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1527,7 +1527,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unique_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1541,7 +1541,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Genuine"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1553,7 +1553,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Genuine_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1565,7 +1565,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Genuine_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1577,7 +1577,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Genuine_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1591,7 +1591,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1603,7 +1603,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1615,7 +1615,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1627,7 +1627,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1641,7 +1641,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1653,7 +1653,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1665,7 +1665,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1677,7 +1677,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Normal_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1691,7 +1691,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unusual"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1703,7 +1703,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unusual_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1715,7 +1715,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unusual_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1727,7 +1727,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Unusual_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1741,7 +1741,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Haunted"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1753,7 +1753,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Haunted_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1765,7 +1765,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Haunted_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1777,7 +1777,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Haunted_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1791,7 +1791,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"PaintkitWeapon"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1803,7 +1803,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"PaintkitWeapon_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1815,7 +1815,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"PaintkitWeapon_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1827,7 +1827,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"PaintkitWeapon_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1841,7 +1841,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Collectors"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1853,7 +1853,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Collectors_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1865,7 +1865,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Collectors_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1877,7 +1877,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Collectors_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1891,7 +1891,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Vintage"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1903,7 +1903,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Vintage_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1915,7 +1915,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Vintage_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1927,7 +1927,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Vintage_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1941,7 +1941,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Community"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1953,7 +1953,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Community_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1965,7 +1965,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Community_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1977,7 +1977,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Community_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -1991,7 +1991,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Developer"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2003,7 +2003,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Developer_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2015,7 +2015,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Developer_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2027,7 +2027,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Developer_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2041,7 +2041,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"SelfMade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2053,7 +2053,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"SelfMade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2065,7 +2065,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"SelfMade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2077,7 +2077,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"SelfMade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2091,7 +2091,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Customized"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2103,7 +2103,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Customized_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2115,7 +2115,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Customized_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2127,7 +2127,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Customized_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2141,7 +2141,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Strange"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2153,7 +2153,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Strange_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2165,7 +2165,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Strange_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2177,7 +2177,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Strange_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2191,7 +2191,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Completed"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2203,7 +2203,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Completed_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2215,7 +2215,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Completed_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2227,7 +2227,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Completed_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2241,7 +2241,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"GradedWeaponDefault"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2253,7 +2253,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"GradedWeaponDefault_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2265,7 +2265,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"GradedWeaponDefault_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2277,7 +2277,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"GradedWeaponDefault_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2290,7 +2290,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CivilianGrade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2302,7 +2302,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CivilianGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2314,7 +2314,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CivilianGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2326,7 +2326,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CivilianGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2339,7 +2339,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"FreelanceGrade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2351,7 +2351,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"FreelanceGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2363,7 +2363,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"FreelanceGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2375,7 +2375,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"FreelanceGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2388,7 +2388,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"MercenaryGrade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2400,7 +2400,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"MercenaryGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2412,7 +2412,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"MercenaryGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2424,7 +2424,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"MercenaryGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2437,7 +2437,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CommandoGrade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2449,7 +2449,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CommandoGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2461,7 +2461,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CommandoGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2473,7 +2473,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"CommandoGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2486,7 +2486,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"AssassinGrade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2498,7 +2498,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"AssassinGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2510,7 +2510,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"AssassinGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2522,7 +2522,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"AssassinGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2535,7 +2535,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"EliteGrade"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2547,7 +2547,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"EliteGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2559,7 +2559,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"EliteGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"
@@ -2571,7 +2571,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"EliteGrade_Hover"
 			
-			"image"					"replay/thumbnails/panels/Material_Generic"
+			"image"					"replay/thumbnails/panels/backpackpanel_hover"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"8"

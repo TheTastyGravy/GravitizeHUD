@@ -2,23 +2,23 @@
 {
 	"ItemSelectionPanel"
 	{
-		"item_ypos"									"60"
-		"item_ydelta"								"80"
-		"item_backpack_offcenter_x"					"-352"
+		"item_ypos"									"61"
+		"item_ydelta"								"86"
+		"item_backpack_offcenter_x"					"-354"
 		"modelpanels_selection_kv"
 		{
-			"wide"									"119"
-			"tall"									"93"
+			"wide"									"116"
+			"tall"									"91"
 			"model_tall"							"57"
 		}
 		
 		"modelpanels_kv"
 		{
-			"wide"									"72"
-			"tall"									"57"
+			"wide"									"69"
+			"tall"									"54"
 			
 			"model_wide"							""
-			"model_tall"							"43"
+			"model_tall"							"38"
 			
 			"text_ypos"								"60"
 			
@@ -31,12 +31,12 @@
 	{
 		"xpos"										"cs-0.5"
 		"ypos"										"c-183"
-		"wide"										"710"
-		"tall"										"282"
+		"wide"										"716"
+		"tall"										"286"
 	}
 	
 	"CancelButton"
 	{
-		"wide"										"710"
+		"wide"										"716"
 	}
 }

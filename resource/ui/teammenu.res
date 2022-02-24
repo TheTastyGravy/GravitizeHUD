@@ -216,8 +216,8 @@
 		"border"									"MaterialRed"
 		
 		"pin_to_sibling" 							"TeamsAnchor"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	
 	"Red"
@@ -477,8 +477,8 @@
 		"border"									"MaterialTransparent70"
 		
 		"pin_to_sibling" 							"TeamsAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
 	
 	"SpectateIcon"
@@ -566,8 +566,8 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"135"
-		"tall"										"80"
+		"wide"										"100"
+		"tall"										"50"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"0"
 		"visible"		  							"1"

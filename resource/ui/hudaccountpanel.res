@@ -2,11 +2,12 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"								"0"
-		"delta_item_start_y"						"5"
-		"delta_item_end_y"							"10"
+		"tall"										"100"
+		"delta_item_x"								"88"
+		"delta_item_start_y"						"18"
+		"delta_item_end_y"							"23"
 		"PositiveColor"								"Green"
-		"NegativeColor"								"255 0 0 155"
+		"NegativeColor"								"Red"
 		"delta_lifetime"							"1"
 		"delta_item_font"							"Size 14"
 	}

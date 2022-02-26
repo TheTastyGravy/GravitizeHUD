@@ -25,7 +25,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"92 173 255 255"
+		"bgcolor_override"		"Blue"
 		
 		if_match
 		{
@@ -47,7 +47,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"255 61 61 255"
+		"bgcolor_override"		"Red"
 
 		if_match
 		{
@@ -70,7 +70,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"45 45 45 200"
+		"bgcolor_override"		"0 0 0 200"
 
 		if_match
 		{
@@ -133,7 +133,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"Size 24"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"ypos"			"cs-0.5"
 		"wide"			"60"
 		"tall"			"60"
 		"zpos"			"5"
@@ -159,7 +159,7 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"Size 24 Blur"
 		"xpos"			"cs-0.5+1"
-		"ypos"			"cs-0.1+1"
+		"ypos"			"cs-0.5+1"
 		"wide"			"60"
 		"tall"			"60"
 		"zpos"			"4"

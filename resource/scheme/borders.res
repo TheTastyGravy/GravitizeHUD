@@ -450,6 +450,18 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
+		MaterialGreenDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"DarkGreen"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
+		}
 		
 		////////////////////////////////////////////////////////////////////////////////////
 		///////////////////////////////////MATERIAL PURPLE//////////////////////////////////

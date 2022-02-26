@@ -7,6 +7,7 @@ Scheme
 		"Blue"						"92 173 255 255"
 		"DarkBlue"					"41 147 255 255"
 		"Green"						"75 210 75 255"
+		"DarkGreen"					"60 175 60 255"
 		"Main Theme"				"80 150 255 255"
 		"WhiteLight"				"227 228 230 255"
 		"White"						"227 228 230 255"

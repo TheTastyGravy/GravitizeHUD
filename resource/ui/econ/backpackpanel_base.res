@@ -75,7 +75,7 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"New"
 				"font"								"Size 9"
-				"textAlignment"						"east"
+				"textAlignment"						"center"
 				"ypos"								"0"
 				"xpos"								"0"
 				"zpos"								"0"

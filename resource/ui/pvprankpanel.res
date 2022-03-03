@@ -247,7 +247,7 @@
 
 			if_mini
 			{
-				"xpos"								"50"
+				"xpos"								"cs-0.5"
 				"ypos"								"r35"
 			}
 		}
@@ -302,7 +302,7 @@
 
 			if_mini
 			{
-				"xpos"								"rs1-10"
+				"xpos"								"rs1-6"
 				"ypos"								"0"
 				"wide"								"p0.85"
 			}
@@ -320,7 +320,7 @@
 				if_mini
 				{
 					"xpos"							"cs-0.5"
-					"ypos"							"rs1-3"
+					"ypos"							"rs1"
 					"wide"							"p1"
 				}
 
@@ -344,7 +344,7 @@
 					
 					if_mini
 					{
-						"xpos"						"40"
+						"xpos"						"0"
 					}
 				}
 
@@ -365,6 +365,12 @@
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
 					"AllCaps"						"1"
+
+					if_mini
+					{
+						"xpos"						"rs1-2"
+						"wide"						"100"
+					}
 				}
 
 				"ProgressBarsContainer"
@@ -391,13 +397,18 @@
 						"xpos"						"cs-0.5"
 						"ypos"						"cs-0.5"
 						"zpos"						"0"
-						"wide"						"f2"
+						"wide"						"p1"
 						"tall"						"f2"
 						"proportionaltoparent"		"1"
 						"progress"					"1"
 
 						"fgcolor_override"			"Blank"
 						"bgcolor_override"			"GrayDark"
+
+						if_mini
+						{
+							"bgcolor_override"		"BlackLight"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -407,7 +418,7 @@
 						"xpos"						"cs-0.5"
 						"ypos"						"cs-0.5"
 						"zpos"						"1"
-						"wide"						"f2"
+						"wide"						"p1"
 						"tall"						"f2"
 						"proportionaltoparent"		"1"
 						"progress"					"0"

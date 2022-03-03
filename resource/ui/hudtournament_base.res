@@ -295,7 +295,7 @@
 		}
 		if_competitive
 		{
-			"visible"						"1"
+			"visible"						"0"
 		}
 		if_readymode
 		{
@@ -600,15 +600,15 @@
 	}
 
 	"CountdownLabel"
-	{
+	{	
 		"ControlName"						"CExLabel"
 		"fieldName"							"CountdownLabel"
 		"font"								"Size 24"
 		"xpos"								"cs-0.5"
 		"ypos"								"r40"
-		"zpos"								"5"
 		"wide"								"40"
-		"tall"								"18"
+		"tall"								"53"
+		"zpos"								"5"
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"0"
@@ -616,18 +616,18 @@
 		"wrap"								"0"
 		"labelText"							"%tournamentstatelabel%"
 		"textAlignment"						"center"
-		"proportionaltoparent"				"1"
+		"fgcolor"							"White"
 	}
 	"CountdownLabelShadow"
-	{
+	{	
 		"ControlName"						"CExLabel"
 		"fieldName"							"CountdownLabelShadow"
 		"font"								"Size 24 Blur"
-		"xpos"								"cs-0.5+1"
+		"xpos"								"cs-0.5-1"
 		"ypos"								"r39"
-		"zpos"								"4"
 		"wide"								"40"
-		"tall"								"18"
+		"tall"								"53"
+		"zpos"								"4"
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"0"
@@ -636,7 +636,6 @@
 		"labelText"							"%tournamentstatelabel%"
 		"textAlignment"						"center"
 		"fgcolor"							"Shadow"
-		"proportionaltoparent"				"1"
 	}
 
 

@@ -13,36 +13,69 @@
 		
 		"BlueScoreBG2"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueScoreBG2"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"91"
-			"tall"									"26"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"0"
-			"border"								"MaterialBlue"
+			"ControlName"								"EditablePanel"
+			"fieldName"									"BlueScoreBG2"
+			"xpos"										"3"
+			"ypos"										"3"
+			"zpos"										"3"
+			"wide"										"85"	
+			"tall"										"20"		
+			"visible"									"1"
+			"enabled"									"1"
+			"bgcolor_override"							"0 0 0 0"
+
+			"BlueColor"
+			{
+				"ControlName"							"CExLabel"
+				"fieldName"								"BlueColor"
+				"xpos"									"0"
+				"ypos"									"0"
+				"zpos"									"0"
+				"wide"									"100"
+				"tall"									"30"
+				"visible"								"1"
+				"enabled"								"1"
+				"labelText"								""
+				"textAlignment"							"east"	
+				"textinsetx"							"0"
+				"font"									"Default"
+				"fgcolor"								"255 255 255 0"
+				"bgcolor_override"						"Blue"
+				"paintbackgroundtype"					"2"
+			}
 		}
-		
 		"RedScoreBG2"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedScoreBG2"
-			"xpos"									"84"
-			"ypos"									"0"
-			"zpos"									"3"
-			"wide"									"91"
-			"tall"									"26"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"0"
-			"border"								"MaterialRed"
+			"ControlName"								"EditablePanel"
+			"fieldName"									"RedScoreBG2"
+			"xpos"										"87"
+			"ypos"										"3"
+			"zpos"										"3"
+			"wide"										"85"	
+			"tall"										"20"		
+			"visible"									"1"
+			"enabled"									"1"
+			"bgcolor_override"							"0 0 0 0"
+
+			"RedColor"
+			{
+				"ControlName"							"CExLabel"
+				"fieldName"								"RedColor"
+				"xpos"									"-5"
+				"ypos"									"0"
+				"zpos"									"0"
+				"wide"									"90"
+				"tall"									"30"
+				"visible"								"1"
+				"enabled"								"1"
+				"labelText"								""
+				"textAlignment"							"east"	
+				"textinsetx"							"0"
+				"font"									"Default"
+				"fgcolor"								"255 255 255 0"
+				"bgcolor_override"						"Red"
+				"paintbackgroundtype"					"2"
+			}
 		}
 		
 		"BlueTeamLabel"
@@ -53,8 +86,8 @@
 			"fgcolor"								"White"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
-			"xpos"									"-5"
-			"ypos"									"-3"
+			"xpos"									"-2"
+			"ypos"									"0"
 			"zpos"									"6"
 			"wide"									"70"
 			"tall"									"14"
@@ -94,7 +127,7 @@
 			"fgcolor"								"White"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
-			"xpos"									"-7"
+			"xpos"									"-4"
 			"ypos"									"0"
 			"zpos"									"6"
 			"wide"									"100"
@@ -136,8 +169,8 @@
 			"fgcolor"								"White"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
-			"xpos"									"-5"
-			"ypos"									"-3"
+			"xpos"									"-2"
+			"ypos"									"0"
 			"zpos"									"6"
 			"wide"									"70"
 			"tall"									"14"
@@ -178,7 +211,7 @@
 			"fgcolor"								"White"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
-			"xpos"									"-7"
+			"xpos"									"-4"
 			"ypos"									"0"
 			"zpos"									"6"
 			"wide"									"100"
@@ -289,7 +322,6 @@
 		
 		"pin_to_sibling" 							"ShadedBar"
 	}
-	
 	"Player1Class"
 	{	
 		"ControlName"								"CExLabel"
@@ -311,7 +343,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
 	"Player1Score"
 	{	
 		"ControlName"								"CExLabel"
@@ -360,7 +391,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
 	"Player2Class"
 	{	
 		"ControlName"								"CExLabel"
@@ -384,7 +414,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
 	"Player2Score"
 	{	
 		"ControlName"								"CExLabel"
@@ -433,7 +462,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
 	"Player3Class"
 	{	
 		"ControlName"								"CExLabel"
@@ -457,7 +485,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
 	"Player3Score"
 	{	
 		"ControlName"								"CExLabel"
@@ -507,7 +534,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"KillStreakPlayer1Name"
 	{	
 		"ControlName"								"CExLabel"
@@ -532,7 +559,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
 	"KillStreakPlayer1Class"
 	{	
 		"ControlName"								"CExLabel"
@@ -556,7 +582,6 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
 	"KillStreakPlayer1Score"
 	{	
 		"ControlName"								"CExLabel"

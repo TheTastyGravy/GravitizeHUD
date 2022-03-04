@@ -48,24 +48,44 @@
 		
 		"pin_to_sibling"							"MvMPlayerList"
 	}
+	
 	"RedBar"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedBar"
 		"xpos"										"0"
-		"ypos"										"-13"
+		"ypos"										"-10"
 		"zpos"										"0"
-		"wide"										"518"
-		"tall"										"33"
+		"wide"										"512"	
+		"tall"										"27"		
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialRed"
+		"bgcolor_override"							"0 0 0 0"
 		
 		"pin_to_sibling"							"PlayerListBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		
+		"RedColor"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"RedColor"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"0"
+			"wide"									"512"
+			"tall"									"40"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								""
+			"textAlignment"							"east"	
+			"textinsetx"							"0"
+			"font"									"Default"
+			"fgcolor"								"255 255 255 0"
+			"bgcolor_override"						"Red"
+			"paintbackgroundtype"					"2"
+		}
 	}
-	
 	
 	
 	"PopFileLabel"
@@ -75,10 +95,10 @@
 		"font"										"Size 16"
 		"labelText"									"%popfile%"
 		"textAlignment"								"west"
-		"xpos"										"-8"
-		"ypos"										"0"
+		"xpos"										"-5"
+		"ypos"										"3"
 		"zpos"										"3"
-		"wide"										"200"
+		"wide"										"300"
 		"tall"										"28"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
@@ -95,7 +115,7 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
-		"wide"										"200"
+		"wide"										"300"
 		"tall"										"28"
 		"AllCaps"									"1"
 		"fgcolor"									"Shadow"
@@ -131,8 +151,8 @@
 			"font"									"Size 16"
 			"labelText"								"%difficultyvalue%"
 			"textAlignment"							"east"
-			"xpos"									"-8"
-			"ypos"									"0"
+			"xpos"									"-5"
+			"ypos"									"-3"
 			"zpos"									"1"
 			"wide"									"150"
 			"tall"									"28"

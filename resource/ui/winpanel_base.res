@@ -8,20 +8,22 @@
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
+		"proportionaltoparent" 						"1"
 		
 		"BlueScoreBG2"
 		{
 			"ControlName"								"EditablePanel"
 			"fieldName"									"BlueScoreBG2"
-			"xpos"										"3"
+			"xpos"										"cs-1"
 			"ypos"										"3"
 			"zpos"										"3"
 			"wide"										"85"	
-			"tall"										"20"		
+			"tall"										"16"		
 			"visible"									"1"
 			"enabled"									"1"
+			"proportionaltoparent" 						"1"
 			"bgcolor_override"							"0 0 0 0"
 
 			"BlueColor"
@@ -40,7 +42,7 @@
 				"textinsetx"							"0"
 				"font"									"Default"
 				"fgcolor"								"255 255 255 0"
-				"bgcolor_override"						"Blue"
+				"bgcolor_override"						"85 163 239 255"
 				"paintbackgroundtype"					"2"
 			}
 		}
@@ -48,13 +50,14 @@
 		{
 			"ControlName"								"EditablePanel"
 			"fieldName"									"RedScoreBG2"
-			"xpos"										"87"
+			"xpos"										"c"
 			"ypos"										"3"
 			"zpos"										"3"
 			"wide"										"85"	
-			"tall"										"20"		
+			"tall"										"16"		
 			"visible"									"1"
 			"enabled"									"1"
+			"proportionaltoparent" 						"1"
 			"bgcolor_override"							"0 0 0 0"
 
 			"RedColor"
@@ -73,7 +76,7 @@
 				"textinsetx"							"0"
 				"font"									"Default"
 				"fgcolor"								"255 255 255 0"
-				"bgcolor_override"						"Red"
+				"bgcolor_override"						"239 57 57 255"
 				"paintbackgroundtype"					"2"
 			}
 		}
@@ -283,21 +286,42 @@
 		}
 	}
 
+	"WinPanelBGBorder"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"WinPanelBGBorder"
+		"xpos"										"cs-0.5"
+		"ypos"										"16"
+		"zpos"										"4"
+		"wide"										"p0.8745"
+		"tall"										"6"
+		"proportionaltoparent" 						"1"
+
+		"paintbackground"							"0"
+		"scaleImage"								"1"	
+		"border"									"TFFatLineBorderBlueBG"
+	}
+
 	"ShadedBar"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"0"
-		"ypos"										"18"
+		"ypos"										"-4"
 		"zpos"										"2"
-		"wide"										"175"
-		"tall"										"62"
+		"wide"										"176"
+		"tall"										"68"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent" 						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
+
+		"pin_to_sibling" 							"WinPanelBGBorder"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
 	
 	"Player1Name"
@@ -515,7 +539,7 @@
 		"fieldName"									"KillStreakLeaderLabel"
 		"font"										"Size 10"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"-15"
 		"zpos"										"3"
 		"wide"										"175"
 		"tall"										"12"
@@ -606,12 +630,6 @@
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
-	"WinPanelBGBorder"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"WinPanelBGBorder"
-		"xpos"										"9999"
-	}
 	"WinningTeamLabel"
 	{	
 		"ControlName"								"CExLabel"

@@ -35,6 +35,19 @@
 		"tall"					"64"
 	}
 
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"rs1"
+		"wide"					"200"
+		"tall"					"85"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
+	}
+
 	HudMedicCharge
 	{
 		"xpos"										"0"

@@ -623,7 +623,7 @@
 		"ControlName"						"CExLabel"
 		"fieldName"							"CountdownLabelShadow"
 		"font"								"Size 24 Blur"
-		"xpos"								"cs-0.5-1"
+		"xpos"								"cs-0.5+1"
 		"ypos"								"r39"
 		"wide"								"40"
 		"tall"								"53"

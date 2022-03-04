@@ -235,7 +235,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"Size 12"
+		"font"										"Size 12 Shadow"
 		"fgcolor_override"   						"White"
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"

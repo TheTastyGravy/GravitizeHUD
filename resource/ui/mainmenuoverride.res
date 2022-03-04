@@ -1148,7 +1148,7 @@
 		"SubImage"
 		{
 			"ControlName"							"CExImageButton"
-			"fieldName"								"Notifications_ShowButtonPanel_SB"
+			"fieldName"								"SubImage"
 			"xpos"									"9999"
 		}
 	}

@@ -80,16 +80,16 @@ event RDNegativeScorePulse
 
 event HasNotificationsBlink
 {
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"White"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"Blank"		Linear 0.2 0.1
 		
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"White"		Linear 0.4 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"Blank"		Linear 0.6 0.1
 	
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"White"		Linear 0.8 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"Blank"		Linear 1.0 0.1
 	
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"White"		Linear 1.2 0.1
 
 	RunEvent HasNotificationsBlinkLoop		2.0
 }
@@ -97,7 +97,7 @@ event HasNotificationsBlinkStop
 {
 	StopEvent HasNotificationsBlink				0.0
 	StopEvent HasNotificationsBlinkLoop 		0.0
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	FgColor		"White"		Linear 0.0 0.1
 }
 
 //====================================================================================================================
@@ -140,11 +140,11 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible	RedTeamPanel	1	0
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
-	Animate CountdownLabel ypos 125 Linear 0 0
-	Animate CountdownLabelShadow ypos 124 Linear 0 0
+	Animate CountdownLabel 			ypos 105 	Linear 0 0
+	Animate CountdownLabelShadow 	ypos 106 	Linear 0 0
 
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c-4 Gain 0.75 0 0.4
+	Animate CountdownLabel 			ypos c-7 	Gain 0.75 0 0.4
+	Animate CountdownLabelShadow 	ypos c-6 	Gain 0.75 0 0.4
 
 	SetVisible	HudTournamentBG 0	2
 	RunEventChild MatchDoors PlayDoorCloseAnim 0
@@ -153,6 +153,9 @@ event HudMatchStatus_ShowMatchStartDoors
 
 	RunEvent HudTournament_AnimateTeams_In 0.25
 	RunEvent HudTournament_AnimateTeams_Out 7.70
+
+	Animate CountdownLabel 			ypos c20 	Accel 7.70 7.80
+	Animate CountdownLabelShadow 	ypos c21 	Accel 7.70 7.80
 
 	SetVisible MatchDoors	0 9
 	SetVisible CountdownLabel 0 9.9
@@ -165,15 +168,15 @@ event HudMatchStatus_ShowMatchStartDoors
 
 event HudTournament_MoveTimerDown
 {
-	Animate CountdownLabel ypos 125 Linear 0 0
-	Animate CountdownLabelShadow ypos 124 Linear 0 0
+	Animate CountdownLabel 			ypos 105 	Linear 0 0
+	Animate CountdownLabelShadow 	ypos 106 	Linear 0 0
 
 	SetVisible CountdownBG 0 5
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
 
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c-4 Gain 0.75 0 0.4
+	Animate CountdownLabel 			ypos c-7 	Gain 0.75 0 0.4
+	Animate CountdownLabelShadow 	ypos c-6 	Gain 0.75 0 0.4
 
 	SetVisible	TournamentConditionLabel 0 2
 
@@ -183,8 +186,8 @@ event HudTournament_MoveTimerDown
 
 event HudTournament_ShowTimerCompetitive
 {
-	Animate CountdownLabel ypos 125 Linear 0 0
-	Animate CountdownLabelShadow ypos 124 Linear 0 0
+	Animate CountdownLabel ypos 105 Linear 0 0
+	Animate CountdownLabelShadow ypos 106 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0

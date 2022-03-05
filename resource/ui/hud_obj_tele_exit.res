@@ -6,43 +6,27 @@
 		"fieldName"									"BuildingStatusItem"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"80"
-		"tall"										"32"
+		"wide"										"83"
+		"tall"										"28"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
 
-	"BackgroundCustom"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundCustom"
-		"xpos"										"0"
-		"ypos"										"-1"
-		"zpos"										"-1"
-		"wide"										"80"
-		"tall"										"34"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
-	}
-	
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"IconBackgound"
-		"xpos"										"2"
-		"ypos"										"1"
+		"xpos"										"0"
+		"ypos"										"cs-0.5"
 		"zpos"										"0"
-		"wide"										"30"
+		"wide"										"35"
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 	}
-
 	"Icon_Teleport_Exit"
 	{
 		"ControlName"								"CIconPanel"
@@ -68,12 +52,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NotBuiltPanel"
-		"xpos"										"34"
-		"ypos"										"1"
-		"wide"										"42"
-		"tall"										"30"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"xpos"										"9999"
 		
 		"NotBuiltBG"
 		{
@@ -81,24 +60,11 @@
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"9999"
 		}
-
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"Size 9"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"labelText"								"#Building_hud_tele_exit_not_built"
-			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"AllCaps"								"1"
-			"proportionaltoparent"					"1"
+			"xpos"									"9999"
 		}
 	}
 	
@@ -107,19 +73,47 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BuiltPanel"
 		"xpos"										"2"
-		"ypos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"76"
-		"tall"										"30"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
+
+		"BuiltBackground"
+		{
+			"ControlName"								"EditablePanel"
+			"fieldName"									"BuiltBackground"
+			"xpos"										"30"
+			"ypos"										"cs-0.5"
+			"zpos"										"-2"
+			"wide"										"62"
+			"tall"										"f0"
+			"visible"									"1"
+			"enabled"									"1"
+			"proportionaltoparent"						"1"
+
+			"Color"
+			{
+				"ControlName"							"EditablePanel"
+				"fieldName"								"Color"
+				"xpos" 									"-5"
+				"ypos"									"0"
+				"wide"									"56"
+				"tall"									"f0"
+				"visible"								"1"
+				"enabled"								"1"
+				"proportionaltoparent"					"1"
+				"border"								"MaterialTransparent50"
+			}
+		}
 		
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_1"
-			"xpos"									"20"
-			"ypos"									"20"
+			"xpos"									"22"
+			"ypos"									"3"
 			"zpos"									"1"
 			"wide"									"14"
 			"tall"									"14"
@@ -130,13 +124,12 @@
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_2"
-			"xpos"									"20"
-			"ypos"									"20"
+			"xpos"									"22"
+			"ypos"									"3"
 			"zpos"									"1"
 			"wide"									"14"
 			"tall"									"14"
@@ -147,13 +140,12 @@
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_3"
-			"xpos"									"20"
-			"ypos"									"20"
+			"xpos"									"22"
+			"ypos"									"3"
 			"zpos"									"1"
 			"wide"									"14"
 			"tall"									"14"
@@ -171,7 +163,6 @@
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
 		}
-		
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -181,21 +172,21 @@
 		
 		"SapperIcon"
 		{
-			"ControlName"							"CIconPanel"
+			"ControlName"							"CExLabel"
 			"fieldName"								"SapperIcon"
-			"xpos"									"3"
-			"ypos"									"3"
+			"xpos"									"1"
+			"ypos"									"cs-0.5"
 			"zpos"									"10"
-			"wide"									"25"
-			"tall"									"25"
+			"wide"									"29"
+			"tall"									"24"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
-			"icon"									"obj_status_icon_sapper"
-			"iconColor"								"Black"
-			"paintbackground"						"1"
-			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
+
+			"scaleImage"							"1"
+			"icon"									"obj_status_icon_sapper"
+			"iconColor"								"White"
+			"bgcolor_override" 						"230 60 60 255"
 		}
 		
 		"Health"
@@ -203,10 +194,10 @@
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"font"									"Default"
-			"xpos"									"rs1-3"
-			"ypos"									"cs-0.5-1"
+			"xpos"									"32"
+			"ypos"									"cs-0.49"
 			"wide"									"6"
-			"tall"									"28"
+			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"Left"
@@ -219,38 +210,72 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BuildingPanel"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
+			"xpos"									"41"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"proportionaltoparent"					"1"
+
+			"BuildingProgress"
+			{	
+				"ControlName"						"ContinuousProgressBar"
+				"fieldName"							"BuildingProgress"
+				"font"								"Default"
+				"xpos"								"0"
+				"ypos"								"rs1-6"
+				"wide"								"34"
+				"tall"								"6"
+				"visible"							"0"
+				"enabled"							"1"
+				"textAlignment"						"Left"
+				"dulltext"							"0"
+				"brighttext"						"0"
+				"proportionaltoparent"				"1"
+				"bgcolor_override"					"130 130 130 255"
+			}
+			"BuildingLabel"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"BuildingLabel"
+				"font"								"Size 7"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"34"
+				"tall"								"6"
+				"visible"							"1"
+				"enabled"							"1"
+				"labelText"							"BUILDING"
+				"textAlignment"						"center"
+				"dulltext"							"0"
+				"brighttext"						"0"
+				"fgcolor"							"Black"
+				"proportionaltoparent"				"1"
+				"pin_to_sibling" 					"BuildingProgress"
+			}
 		}
 		
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RunningPanel"
-			"xpos"									"0"
+			"xpos"									"41"
 			"ypos"									"0"
 			"wide"									"f0"
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-		
-			"UpgradeIcon"
-			{
-				"ControlName"						"CIconPanel"
-				"fieldName"							"UpgradeIcon"
-				"xpos"								"9999"
-			}
 			
 			"Upgrade"
 			{	
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
 				"font"								"Default"
-				"xpos"								"32"
-				"ypos"								"cs-0.5"
+				"xpos"								"0"
+				"ypos"								"rs1-6"
 				"zpos"								"2"
-				"wide"								"30"
+				"wide"								"34"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
@@ -259,6 +284,13 @@
 				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"130 130 130 255"
+			}
+
+			"UpgradeIcon"
+			{
+				"ControlName"						"CIconPanel"
+				"fieldName"							"UpgradeIcon"
+				"xpos"								"9999"
 			}
 		}
 	}

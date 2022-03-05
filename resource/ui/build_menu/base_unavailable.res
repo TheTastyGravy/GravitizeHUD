@@ -16,6 +16,10 @@
 	{	
 		"visible"									"0"
 	}
+	"CostLabelShadow"
+	{	
+		"visible"									"0"
+	}
 	"NumberLabelBG"
 	{	
 		"visible"									"0"

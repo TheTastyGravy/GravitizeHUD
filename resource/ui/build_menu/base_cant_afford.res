@@ -9,20 +9,16 @@
 	"CantBuildReason"
 	{	
 		"font"										"Symbols 24"
-		"ypos"										"-6"
+		"ypos"										"10"
 		"labelText"									"-"
-		"visible"									"1"
-	}
-	"CostLabel"
-	{	
-		"ypos"										"-17"
+		"visible"									"0"
 	}
 	"NumberLabelBG"
 	{	
-		"visible"									"0"
+		"visible"									"1"
 	}
 	"NumberLabel"
 	{	
-		"visible"									"0"
+		"visible"									"1"
 	}
 }

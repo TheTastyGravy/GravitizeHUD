@@ -287,7 +287,7 @@
 	"HudMenuEngyBuild"
 	{
 		"xpos"										"0"
-		"ypos"										"c-117"
+		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"f0"
 		"tall"										"480"
@@ -296,7 +296,7 @@
 	"HudMenuEngyDestroy"
 	{
 		"xpos"										"0"
-		"ypos"										"c-117"
+		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"f0"
 		"tall"										"480"
@@ -305,7 +305,7 @@
 	"HudEurekaEffectTeleportMenu"
 	{
 		"xpos"										"0"
-		"ypos"										"c-117"
+		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"f0"
 		"tall"										"480"

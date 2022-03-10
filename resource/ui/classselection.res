@@ -14,6 +14,19 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
+	"CustomBackground"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"CustomBackground"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-100"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"bgcolor_override"							"0 0 0 150"
+	}
 	
 	"ClassSelect"
 	{
@@ -45,7 +58,7 @@
 		"ControlName"     		  					"EditablePanel"
 		"fieldName"	        	  					"PlayerModelBG"
 		"xpos"										"cs-0.5"
-		"ypos"										"c-123"
+		"ypos"										"c-150"
 		"zpos"										"1"
 		"wide"										"225"
 		"tall"										"250"
@@ -86,7 +99,7 @@
 			"angles_z" 								"0"
 			"origin_x" 								"320"
 			"origin_y" 								"10"
-			"origin_z" 								"-40"
+			"origin_z" 								"-30"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"

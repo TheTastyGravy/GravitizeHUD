@@ -148,10 +148,10 @@
 		"depressedFgColor_override" 				"White"
 	}
 	
-	"TastyHUD"
+	"GravitizeHUD"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"TastyHUD"
+		"fieldName"									"GravitizeHUD"
 		"font"										"Size 22"
 		"fgcolor"   								"GrayDarker"
 		"xpos"										"cs-0.5"
@@ -162,7 +162,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"labelText"									"Tasty HUD"
+		"labelText"									"Gravitize HUD"
 		"textAlignment"								"center"
 	}
 	

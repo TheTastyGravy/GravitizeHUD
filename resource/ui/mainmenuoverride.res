@@ -277,7 +277,7 @@
 		"paintbackground"							"0"
 		"border"									"MaterialBlackLight"
 		
-		"pin_to_sibling" 							"Create"
+		"pin_to_sibling" 							"Store"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 		
@@ -392,10 +392,10 @@
 			"depressedFgColor_override" 			"White"
 		}
 	}
-	"Store"
+	"Servers"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Store"
+		"fieldname"									"Servers"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"15"
@@ -489,17 +489,17 @@
 		}
 	}
 	
-	"Create"
+	"Store"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Create"
+		"fieldname"									"Store"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"64"
 		"tall"										"30"
 		"visible"									"1"
-
+		
 		"pin_to_sibling" 							"Items"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
@@ -537,10 +537,10 @@
 			"depressedFgColor_override" 			"White"
 		}
 	}
-	"Servers"
+	"Console"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Servers"
+		"fieldname"									"Console"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"15"
@@ -548,7 +548,55 @@
 		"tall"										"30"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"Create"
+		"pin_to_sibling" 							"Store"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"64"
+			"tall"									"30"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"Size 10"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"border_default"						"MaterialGrayDarker"
+			"border_armed"							"MaterialHypno"
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"White"
+			"armedFgColor_override" 				"White"
+			"depressedFgColor_override" 			"White"
+		}
+	}
+	"Create"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Create"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"15"
+		"wide"										"64"
+		"tall"										"30"
+		"visible"									"1"
+
+		"pin_to_sibling" 							"Console"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
@@ -596,55 +644,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"Servers"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"64"
-			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"Size 10"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			"border_default"						"MaterialGrayDarker"
-			"border_armed"							"MaterialHypno"
-			"paintbackground"						"0"
-			
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
-		}
-	}
-	"Console"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Console"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"15"
-		"wide"										"64"
-		"tall"										"30"
-		"visible"									"1"
-		
-		"pin_to_sibling" 							"AdvancedSettings"
+		"pin_to_sibling" 							"Create"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
@@ -692,7 +692,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"Console"
+		"pin_to_sibling" 							"AdvancedSettings"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
@@ -1179,10 +1179,10 @@
 		"border"									"MaterialReverseBlackLight"
 	}
 	
-	"TastyHUD"
+	"GravitizeHUD"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"TastyHUD"
+		"fieldName"									"GravitizeHUD"
 		"font"										"Size 22"
 		"fgcolor"   								"GrayDarker"
 		"xpos"										"cs-0.5"
@@ -1193,7 +1193,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"labelText"									"Tasty HUD"
+		"labelText"									"Gravitize HUD"
 		"textAlignment"								"center"
 	}
 	

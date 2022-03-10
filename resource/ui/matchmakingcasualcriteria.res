@@ -238,7 +238,7 @@
 			{
 				"ControlName"						"ScrollBar"
 				"FieldName"							"ScrollBar"
-				"xpos"								"rs1"
+				"xpos"								"rs1+1"
 				"ypos"								"0"
 				"tall"								"f0"
 				"wide"								"3"

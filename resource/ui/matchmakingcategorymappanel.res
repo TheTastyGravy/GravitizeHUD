@@ -56,9 +56,9 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"HealthProgressBar"
 		"xpos"										"20"
-		"ypos"										"cs-0.5"
+		"ypos"										"cs-0.58"
 		"wide"										"f20"
-		"tall"										"f6"
+		"tall"										"12"
 		"proportionaltoparent"						"1"
 		"progress"									"0.5"
 

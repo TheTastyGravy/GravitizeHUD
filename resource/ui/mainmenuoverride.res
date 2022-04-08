@@ -131,7 +131,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RankBorder"
-		"xpos"										"60"
+		"xpos"										"50"
 		"ypos"										"90"
 		"zpos"										"0"
 		"wide"										"320"
@@ -885,16 +885,16 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ReloadScheme"
-		"xpos"										"-1"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"-2"
 		"zpos"										"16"
 		"wide"										"30"
 		"tall"										"26"
 		"visible"									"1"
 		
 		"pin_to_sibling" 							"FriendsContainer"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 
 		"SubButton"
 		{
@@ -933,7 +933,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Minmode"
-		"xpos"										"0"
+		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"30"
@@ -941,8 +941,8 @@
 		"visible"									"1"
 		
 		"pin_to_sibling" 							"ReloadScheme"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		"SubButton"
 		{
@@ -981,15 +981,15 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"SoundFix"
-		"xpos"										"0"
+		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"30"
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"InviliblePlayersFix"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling" 							"Minmode"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"SubButton"
@@ -1029,16 +1029,64 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"InviliblePlayersFix"
-		"xpos"										"-1"
+		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"30"
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"FriendsContainer"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling" 							"SoundFix"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"30"
+			"tall"									"26"
+			"autoResize"							"0"
+			"pinCorner"								"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"Symbols 18"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"actionsignallevel" 					"2"
+
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"border_default"						"MaterialGrayDark"
+			"border_armed"							"MaterialHypno"
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"White"
+			"armedFgColor_override" 				"White"
+			"depressedFgColor_override" 			"White"
+		}
+	}
+	"MatchStatusToggle"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"MatchStatusToggle"
+		"xpos"										"-2"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"30"
+		"tall"										"26"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"InviliblePlayersFix"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"SubButton"
 		{

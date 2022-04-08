@@ -109,4 +109,11 @@
 		"tooltip" 									"Fix Invisible Players"
 		"OnlyInGame"								"1"
 	}
+	"MatchStatusToggle"
+	{
+		"label" 									"M"
+		"command" 									"engine toggle tf_use_match_hud"
+		"tooltip" 									"Toggle MatchStatus"
+		"OnlyInGame"								"1"
+	}
 }

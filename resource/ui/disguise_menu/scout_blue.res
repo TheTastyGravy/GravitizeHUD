@@ -1,29 +1,29 @@
 "Resource/UI/disguise_menu/scout_blue.res"
 {
 	"ClassBackground"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ClassBackground"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"35"
+		"zpos"										"0"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 	}
 	
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemName"
 		"font"										"Class Symbols 28"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"35"
-		"tall"										"35"
+		"zpos"										"1"
+		"wide"										"40"
+		"tall"										"32"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -36,30 +36,29 @@
 	}
 	
 	"NumberBG"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NumberBG"
 		"xpos"										"0"
-		"ypos"										"31"
+		"ypos"										"26"
 		"zpos"										"0"
-		"wide"										"35"
-		"tall"										"16"
+		"wide"										"40"
+		"tall"										"11"
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"MaterialTransparent70"
 	}
-	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Size 11"
+		"font"										"Size 9"
 		"fgcolor"									"White"
 		"xpos"										"0"
-		"ypos"										"31"
+		"ypos"										"27"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"16"
+		"wide"										"40"
+		"tall"										"12"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -69,18 +68,18 @@
 		"dulltext"									"1"
 		"brighttext"								"0"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Size 11"
+		"font"										"Size 9"
 		"fgcolor"									"White"
 		"xpos"										"0"
-		"ypos"										"31"
+		"ypos"										"27"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"16"
+		"wide"										"40"
+		"tall"										"12"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -91,7 +90,7 @@
 		"brighttext"								"0"
 	}
 	
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ClassIcon"

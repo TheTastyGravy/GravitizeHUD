@@ -58,7 +58,7 @@
 		"textAlignment"							 	"center"
 		"xpos"										"0"
 		"ypos"										"20"
-		"wide"										"40"
+		"wide"										"80"
 		"tall"										"10"
 		"fgcolor"									"White"
 		"visible"									"1"

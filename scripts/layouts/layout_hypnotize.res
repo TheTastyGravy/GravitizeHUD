@@ -209,7 +209,7 @@
 		"xpos"										"c122"
 		"ypos"										"r30"
 		"zpos" 										"2"
-		"wide"	 									"45"
+		"wide"	 									"80"
 		"tall"	 									"30"
 	}
 	
@@ -314,10 +314,10 @@
 	"HudMenuSpyDisguise"
 	{
 		"xpos"										"0"
-		"ypos"										"c-90"
+		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"120"
-		"tall"										"180"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	
 	"HudMenuTauntSelection"

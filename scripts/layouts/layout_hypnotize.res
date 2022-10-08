@@ -322,11 +322,11 @@
 	
 	"HudMenuTauntSelection"
 	{
-		"xpos"										"r86"
-		"ypos"										"c-90"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"300"
-		"tall"										"300"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	
 	HudDemomanPipes

@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BlueTeam"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-1"
+		"ypos"										"26"
 		"zpos"										"0"
 		"wide"										"80"
 		"tall"										"25"
@@ -15,7 +15,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayerIcon"
-			"xpos"									"0"
+			"xpos"									"rs1"
 			"ypos"									"0"
 			"zpos"									"2"
 			"wide"									"20"
@@ -28,6 +28,7 @@
 			"labelText"								"P"
 			"textAlignment"							"center"
 			"fgcolor"								"Blue"
+			"proportionaltoparent"					"1"
 		}
 		"PlayerIconShadow"
 		{
@@ -54,7 +55,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"Count"
 			"xpos"									"0"
-			"ypos"									"1"
+			"ypos"									"0"
 			"zpos"									"2"
 			"wide"									"40"
 			"tall"									"20"
@@ -64,11 +65,11 @@
 			"enabled"								"1"
 			"font"									"Size 18"
 			"labelText"								"%blue_alive%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"fgcolor"								"White"
 			"pin_to_sibling" 						"PlayerIcon"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
 		}
 		"CountShadow"
 		{
@@ -85,7 +86,7 @@
 			"enabled"								"1"
 			"font"									"Size 18 Blur"
 			"labelText"								"%blue_alive%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"fgcolor"								"Shadow"
 			"pin_to_sibling" 						"Count"
 		}
@@ -101,8 +102,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedTeam"
-		"xpos"										"0"
-		"ypos"										"18"
+		"xpos"										"c"
+		"ypos"										"26"
 		"zpos"										"0"
 		"wide"										"80"
 		"tall"										"25"
@@ -151,7 +152,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"Count"
 			"xpos"									"0"
-			"ypos"									"1"
+			"ypos"									"0"
 			"zpos"									"2"
 			"wide"									"40"
 			"tall"									"20"

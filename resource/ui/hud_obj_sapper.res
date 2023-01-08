@@ -6,49 +6,46 @@
 		"fieldName"									"BuildingStatusItem"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"80"
+		"wide"										"150"
 		"tall"										"32"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-
-	"BackgroundCustom"
+	
+	"IconBackground"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundCustom"
+		"fieldName"									"IconBackground"
 		"xpos"										"0"
-		"ypos"										"-1"
-		"zpos"										"-1"
-		"wide"										"80"
+		"ypos"										"cs-0.5"
+		"zpos"										"0"
+		"wide"										"38"
 		"tall"										"34"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
-	}
-	
-	"IconBackgound"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"IconBackgound"
-		"xpos"										"2"
-		"ypos"										"1"
-		"zpos"										"0"
-		"wide"										"30"
-		"tall"										"30"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"border"									"MaterialTransparent50"
-	}
 
+		"Color"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Color"
+			"xpos" 									"0"
+			"ypos"									"0"
+			"wide"									"41"
+			"tall"									"34"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"border"								"MaterialTransparent90"
+		}
+	}
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Icon"
-		"xpos"										"0"
-		"ypos"										"-5"
+		"xpos"										"10"
+		"ypos"										"5"
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"20"
@@ -62,6 +59,34 @@
 		"pin_to_sibling" 							"IconBackgound"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+	}
+
+	"BuiltBackground"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BuiltBackground"
+		"xpos"										"38"
+		"ypos"										"cs-0.5"
+		"zpos"										"-2"
+		"wide"										"60"
+		"tall"										"34"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+
+		"Color"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Color"
+			"xpos" 									"-5"
+			"ypos"									"0"
+			"wide"									"65"
+			"tall"									"34"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"border"								"MaterialTransparent70"
+		}
 	}
 
 	"NotBuiltPanel"
@@ -109,13 +134,13 @@
 		"xpos"										"2"
 		"ypos"										"1"
 		"zpos"										"2"
-		"wide"										"76"
+		"wide"										"150"
 		"tall"										"30"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
 		
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"wide"									"0"
@@ -147,10 +172,10 @@
 			{
 				"ControlName"						"CIconPanel"
 				"fieldName"							"TargetIcon"
-				"xpos"								"5"
-				"ypos"								"1"
-				"wide"								"20"
-				"tall"								"20"
+				"xpos"								"7"
+				"ypos"								"0"
+				"wide"								"22"
+				"tall"								"22"
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"	
@@ -159,13 +184,13 @@
 			}
 			
 			"TargetHealth"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"TargetHealth"
 				"font"								"Default"
-				"xpos"								"rs1-5"
+				"xpos"								"39"
 				"ypos"								"cs-0.5"
-				"wide"								"40"
+				"wide"								"51"
 				"tall"								"8"
 				"visible"							"1"
 				"enabled"							"1"
@@ -183,7 +208,7 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
-				"wide"								"40"
+				"wide"								"51"
 				"tall"								"8"
 				"visible"							"1"
 				"enabled"							"1"

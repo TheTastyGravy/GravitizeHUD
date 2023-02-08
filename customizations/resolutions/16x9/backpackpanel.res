@@ -1,16 +1,26 @@
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/BackpackPanel.res"
 {
 	"backpack_panel"
 	{
-		"item_ypos"									"49"
-		"item_backpack_offcenter_x"					"-354"
+		"item_ypos"									"50"
+		"item_backpack_offcenter_x"					"-352"
 		"page_button_y"								"333"
-		"page_button_per_row" 						"25"
-		
+
+		"pagebuttons_kv"
+		{
+			"wide"									"33"
+
+			"Button"
+			{
+				"wide"								"33"
+			}
+		}
+
 		"modelpanels_kv"
 		{
 			"wide"									"69"
 			"tall"									"54"
+			"model_wide"							"65"
 			"model_tall"							"36"
 		}
 	}
@@ -54,11 +64,11 @@
 	
 	"ShowRarityComboBox"
 	{
-		"wide"										"160"
+		"wide"										"161"
 	}
 	"ShowRarityBG"
 	{
-		"wide"										"166"
+		"wide"										"167"
 	}
 	
 	"SortByComboBox"
@@ -72,7 +82,7 @@
 	
 	"CancelApplyToolButton"
 	{
-		"wide"										"216"
+		"wide"										"138"
 	}
 	
 	"DragToNextPageButton"

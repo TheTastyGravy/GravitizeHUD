@@ -180,7 +180,18 @@
 		
 		"pin_to_sibling"							"BuildingAnchor"
 	}
-	
+
+	"CurrencyStatusPanel"
+	{
+		"xpos"										"cs-0.5"
+		"ypos"										"c125"
+		"ypos_minmode"								"c91"
+		"wide"										"50"
+		"wide_minmode"								"40"
+		"tall"										"20"
+		"tall_minmode"								"17"
+	}
+
 	HudDeathNotice
 	{
 		"xpos"	 									"r635"

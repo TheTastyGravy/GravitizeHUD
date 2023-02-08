@@ -84,7 +84,7 @@
 		
 		"duplicatelabels_kv"
 		{
-			"font"									"ItemFontNameSmallest"
+			"font"									"Size 10"
 			"textAlignment"							"center"
 			"wide"									"20"
 			"tall"									"15"

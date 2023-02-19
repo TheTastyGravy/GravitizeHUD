@@ -122,6 +122,21 @@
 		"enabled"									"1"
 		"bgcolor_override"							"GrayDarkest"
 	}
+	"TFLogoImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"TFLogoImage"
+		"xpos"										"70"
+		"ypos"										"50"
+		"zpos"										"0"
+		"wide"										"320"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../logo/tf2_logo"
+		"scaleImage"								"1"
+		"mouseinputenabled"							"0"
+	}
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////////
 	///////////////////////////////////////////RANK PANEL////////////////////////////////////////////////
@@ -131,8 +146,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RankBorder"
-		"xpos"										"50"
-		"ypos"										"90"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"320"
 		"tall"										"75"
@@ -140,6 +155,10 @@
 		"PaintBackgroundType"						"2"
 		"border"									"MaterialBlackLight"
 		"proportionaltoparent"						"1"
+
+		"pin_to_sibling" 							"TFLogoImage"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
 	"RankModelPanel"
 	{
@@ -840,9 +859,9 @@
 		"tall"										"28"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"RankBorder"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling" 							"FriendsContainer"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 		
 		"SubButton"
 		{
@@ -885,16 +904,16 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ReloadScheme"
-		"xpos"										"0"
-		"ypos"										"-2"
+		"xpos"										"-2"
+		"ypos"										"0"
 		"zpos"										"16"
 		"wide"										"30"
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"FriendsContainer"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling" 							"Minmode"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -940,9 +959,9 @@
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"ReloadScheme"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling" 							"SoundFix"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 		
 		"SubButton"
 		{
@@ -988,9 +1007,9 @@
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"Minmode"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling" 							"InviliblePlayersFix"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1036,9 +1055,9 @@
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"SoundFix"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling" 							"MatchStatusToggle"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1077,16 +1096,16 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MatchStatusToggle"
-		"xpos"										"-2"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"-2"
 		"zpos"										"16"
 		"wide"										"30"
 		"tall"										"26"
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"InviliblePlayersFix"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling" 							"FriendsContainer"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{

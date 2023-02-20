@@ -133,9 +133,8 @@
 		"tall"										"80"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../logo/tf2_logo"
+		"image"										"replay/thumbnails/menu/logo"
 		"scaleImage"								"1"
-		"mouseinputenabled"							"0"
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////////

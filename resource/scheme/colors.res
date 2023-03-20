@@ -9,6 +9,7 @@ Scheme
 		"Green"						"75 210 75 255"
 		"DarkGreen"					"60 175 60 255"
 		"Main Theme"				"80 150 255 255"
+		"Main Theme Gray"			"45 75 150 255"
 		"WhiteLight"				"227 228 230 255"
 		"White"						"227 228 230 255"
 		"WhiteDark"					"172 173 175 255"

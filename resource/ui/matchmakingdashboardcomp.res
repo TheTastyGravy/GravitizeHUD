@@ -37,36 +37,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowExplanationsButton"
-		"xpos"										"rs1-3"
-		"ypos"										"15"
-		"zpos"										"100"
-		"wide"										"20"
-		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"1"
-		"font"										"Symbols 16"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"Command"									"show_explanations"
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-		"actionsignallevel"							"1"
-		"proportionaltoparent"						"1"
-		
-		"paintbackground"							"0"
-		
-		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
-
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"xpos"										"9999"
 	}
 	
 	"RankTooltipPanel"

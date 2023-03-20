@@ -11,21 +11,22 @@
 		"tall"		    							"26"
 		"visible"	   						 		"1"
 		"enabled"	    							"1"
-	}
 
-	"ControlPointOutline"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"	  								"ControlPointOutline"
-		"xpos"		    							"0"
-		"ypos"		    							"0"
-		"zpos"		    							"3"
-		"wide"		    							"26"
-		"tall"		    							"26"
-		"visible"	   						 		"1"
-		"enabled"	    							"1"
-		"paintbackground"							"0"
-		"border"									"OutlineSize2Shrunk"
+		"ControlPointOutline"
+		{
+			"ControlName"								"EditablePanel"
+			"fieldName"	  								"ControlPointOutline"
+			"xpos"		    							"cs-0.5"
+			"ypos"		    							"cs-0.5"
+			"zpos"		    							"3"
+			"wide"		    							"p0.9"
+			"tall"		    							"p0.9"
+			"visible"	   						 		"1"
+			"enabled"	    							"1"
+			"paintbackground"							"0"
+			"border"									"OutlineSize3"
+			"proportionaltoparent"						"1"
+		}
 	}
 	
 	"Countdown"
@@ -53,6 +54,7 @@
 		"visible"	    							"0"
 		"enabled"	    							"1"
 		"image"		    							"capture_icon"
+		"drawcolor"									"Black"
 		"scaleImage"								"1"
 	}
 

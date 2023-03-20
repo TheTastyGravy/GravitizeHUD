@@ -301,6 +301,21 @@
 		"scaleImage"								"1"	
 		"border"									"TFFatLineBorderBlueBG"
 	}
+	"WinPanelBGBorderDefault"	//used for stalemate
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"WinPanelBGBorderDefault"
+		"xpos"										"cs-0.5"
+		"ypos"										"16"
+		"zpos"										"3"
+		"wide"										"p0.88"
+		"tall"										"6"
+		"proportionaltoparent" 						"1"
+
+		"paintbackground"							"0"
+		"scaleImage"								"1"	
+		"border"									"MaterialWhiteGray"
+	}
 
 	"ShadedBar"
 	{

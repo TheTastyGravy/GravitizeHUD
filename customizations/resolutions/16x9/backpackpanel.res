@@ -3,8 +3,8 @@
 	"backpack_panel"
 	{
 		"item_ypos"									"50"
-		"item_backpack_offcenter_x"					"-352"
-		"page_button_y"								"333"
+		"item_backpack_offcenter_x"					"-354"
+		"page_button_y"								"336"
 
 		"pagebuttons_kv"
 		{
@@ -29,8 +29,8 @@
 	{
 		"xpos"										"cs-0.5"
 		"ypos"										"c-155"
-		"wide"										"716"
-		"tall"										"286"
+		"wide"										"719"
+		"tall"										"289"
 	}
 
 	"NameFilterTextEntry"
@@ -90,7 +90,7 @@
 		"xpos"										"c357"
 		"ypos"										"c-195"
 		"wide"										"30"
-		"tall"										"286"
+		"tall"										"289"
 		"font"										"Symbols 26"
 	}
 	"DragToPrevPageButton"
@@ -98,7 +98,7 @@
 		"xpos"										"c-387"
 		"ypos"										"c-195"
 		"wide"										"30"
-		"tall"										"286"
+		"tall"										"289"
 		"font"										"Symbols 26"
 	}
 }

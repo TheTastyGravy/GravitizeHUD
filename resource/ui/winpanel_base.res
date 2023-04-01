@@ -42,7 +42,7 @@
 				"textinsetx"							"0"
 				"font"									"Default"
 				"fgcolor"								"255 255 255 0"
-				"bgcolor_override"						"85 163 239 255"
+				"bgcolor_override"						"90 171 248 255"
 				"paintbackgroundtype"					"2"
 			}
 		}
@@ -76,7 +76,7 @@
 				"textinsetx"							"0"
 				"font"									"Default"
 				"fgcolor"								"255 255 255 0"
-				"bgcolor_override"						"239 57 57 255"
+				"bgcolor_override"						"248 60 59 255"
 				"paintbackgroundtype"					"2"
 			}
 		}

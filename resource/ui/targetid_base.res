@@ -1,12 +1,28 @@
 "Resource/UI/TargetID.res"
 {
+	"TargetBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TargetBG"
+		"xpos"										"44"
+		"ypos"										"21"
+		"zpos"										"-1"
+		"wide"										"f0"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"0"
+		"border"									"MaterialTransparent50"
+	}
+
 	"TargetNameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabel"
 		"font"										"Size 10"
 		"xpos"										"40"
-		"ypos"										"25"
+		"ypos"										"24"
 		"zpos"										"2"
 		"wide"										"640"
 		"tall"										"13"
@@ -18,7 +34,7 @@
 	}
 	"TargetNameLabelShadow"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelShadow"
 		"font"										"Size 10 Blur"
 		"xpos"										"-1"
@@ -37,11 +53,11 @@
 	
 	"TargetDataLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TargetDataLabel"
 		"font"										"Size 10 Shadow"
 		"xpos"										"40"
-		"ypos"										"32"
+		"ypos"										"30"
 		"zpos"										"1"
 		"wide"										"640"
 		"tall"										"25"
@@ -49,16 +65,32 @@
 		"enabled"									"1"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
+		"fgcolor_override"							"White"
+	}
+	"AmmoIcon"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"AmmoIcon"
+		"xpos"										"55"
+		"ypos"										"38"
+		"zpos"										"1"
+		"wide"										"8"
+		"tall"										"8"
+		"visible"									"0"
+		"enabled"									"1"
+		//"image"										"../hud/hud_obj_status_ammo_64"
+		"image"										"replay/thumbnails/game/targetid_ammo_icon"
+		"scaleImage"								"1"
 	}
 	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
-		"xpos"										"16"
+		"xpos"										"14"
 		"ypos"										"21"
 		"ypos_minmode"								"23"
-		"wide"										"44"
+		"wide"										"46"
 		"tall"										"36"
 		"visible"									"0"
 		"enabled"									"0"
@@ -80,7 +112,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
 	"KillStreakIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -191,15 +222,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	"AmmoIcon"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"AmmoIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-    }
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"

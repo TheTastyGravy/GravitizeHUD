@@ -22,11 +22,11 @@
 		"ypos"										"16"
 		"zpos"										"99"
 		"wide"										"f0"
-		"tall"										"20"
+		"tall"										"24"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"								"west"
-		"font"										"Size 24"
+		"font"										"Size 36"
 		"fgcolor_override"							"WhiteDark"
 		
 		"AllCaps"									"1"

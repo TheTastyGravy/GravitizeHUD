@@ -659,6 +659,14 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
+
+			"HealthIcon"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"HealthIcon"
+				"xpos"								"9999"
+				"visible"							"0"
+			}
 		}
 	}
 

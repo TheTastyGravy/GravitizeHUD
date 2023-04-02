@@ -857,87 +857,170 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"
 	}
-	
-	///MVM BUY BUTTONS///
-	"BuyDisabled"
+
+	///MVM BOMB///
+	"MvMBombStatusBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"BuyDisabled"
+		"fieldName"			"MvMBombStatusBG"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/buy_disabled"
+		"image"				"../hud/bomb_carrier_upgrade_base"
 	}
-	"BuyEnabled"
+	"MvMBombStatusFrame"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"BuyEnabled"
+		"fieldName"			"MvMBombStatusFrame"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/buy_enabled"
+		"image"				"../hud/bomb_carrier_upgrade_frame"
 	}
-	"BuySelected"
+	"MvMBombStatusMeter"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"BuySelected"
+		"fieldName"			"MvMBombStatusMeter"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/buy_selected"
+		"image"				"../hud/bomb_carrier_upgrade_meter"
 	}
-	"SellDisabled"
+	"MvMBombUpgrade1ON"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"SellDisabled"
+		"fieldName"			"MvMBombUpgrade1ON"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/sell_disabled"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1"
 	}
-	"SellEnabled"
+	"MvMBombUpgrade1OFF"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"SellEnabled"
+		"fieldName"			"MvMBombUpgrade1OFF"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/sell_enabled"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1_disabled"
 	}
-	"SellSelected"
+	"MvMBombUpgrade2ON"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"SellSelected"
+		"fieldName"			"MvMBombUpgrade2ON"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/sell_selected"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2"
 	}
-	"UpgradeOwned"
+	"MvMBombUpgrade2OFF"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"UpgradeOwned"
+		"fieldName"			"MvMBombUpgrade2OFF"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/upgrade_owned"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2_disabled"
 	}
-	"UpgradePurchased"
+	"MvMBombUpgrade3ON"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"UpgradePurchased"
+		"fieldName"			"MvMBombUpgrade3ON"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/upgrade_purchased"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3"
 	}
-	"UpgradeUnowned"
+	"MvMBombUpgrade3OFF"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"UpgradeUnowned"
+		"fieldName"			"MvMBombUpgrade3OFF"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"pve/upgrade_unowned"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3_disabled"
+	}
+	"MvMBombUpgradeBoss"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgradeBoss"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_boss"
+	}
+
+	///ROBOT DESTRUCTION///
+	"RDCircleBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDCircleBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_circle_blue"
+	}
+	"RDCircleRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDCircleRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_circle_red"
+	}
+	"RDCircleGrey"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDCircleGrey"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_circle_grey"
+	}
+	"RDLock"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDLock"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_lock"
+	}
+	"RDDroppedBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDDroppedBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_rd_thief_dropped_blue"
+	}
+	"RDDroppedRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDDroppedRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_rd_thief_dropped_red"
+	}
+	"RDThiefBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDThiefBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_thief_blue"
+	}
+	"RDThiefRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RDThiefRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/obj_thief_red"
 	}
 }

@@ -334,7 +334,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -394,7 +394,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -622,7 +622,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialBlackLight"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}	
 	
 	"DragToPrevPageButton"
@@ -656,7 +656,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialBlackLight"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}		
 	
 	"CancelApplyToolButton"
@@ -691,7 +691,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling"							"SortByBG"
 	}	

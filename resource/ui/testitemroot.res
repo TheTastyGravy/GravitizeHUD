@@ -397,7 +397,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 		
 		"RemoveItemButton0"
@@ -506,7 +506,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 		
 		"RemoveItemButton1"
@@ -616,7 +616,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 		
 		"RemoveItemButton2"
@@ -728,7 +728,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 		
 		"RemoveItemButton3"
@@ -876,7 +876,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 	
 		"BotSelectionComboBox"
@@ -942,7 +942,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 	}
 	
@@ -992,7 +992,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	"ImportButton"
@@ -1027,7 +1027,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	"ImportRecentButton"
@@ -1062,7 +1062,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	"CancelButton"
@@ -1097,7 +1097,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	"OkButton"
 	{
@@ -1131,7 +1131,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 
 	"SteamWorkshopButton"
@@ -1179,7 +1179,7 @@
 			"depressedFgColor_override"				"White"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 			
 			"image_armedcolor"						"White"
 			"image_drawcolor"						"White"

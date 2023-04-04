@@ -122,7 +122,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	"ShowNextButton"
 	{
@@ -155,7 +155,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDarker"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	"RenderAllButton"
@@ -181,7 +181,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	"CaratLabel"

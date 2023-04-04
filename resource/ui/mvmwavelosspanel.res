@@ -362,7 +362,7 @@
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground"							"0"
 		"border_default"							"MaterialTransparent50"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -399,7 +399,7 @@
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground"							"0"
 		"border_default"							"MaterialTransparent50"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"

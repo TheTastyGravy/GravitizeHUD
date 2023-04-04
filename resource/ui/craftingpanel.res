@@ -125,7 +125,7 @@
 			
 			//"paintborder"							"1"
 			//"border_default" 						"MaterialGrayDark"
-			//"border_Armed"						"MaterialHypno"
+			//"border_Armed"						"MaterialTheme"
 		}
 		
 		"filter_xoffset"							"-223"
@@ -304,7 +304,7 @@
 			"paintbackground"						"0"
 			
 			"border_default"						"MaterialGrayDark"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}			
 		
 		"FreeAccountLabel"
@@ -359,7 +359,7 @@
 			"paintbackground"						"0"
 			
 			"border_default"						"MaterialGreen"
-			"border_armed"							"MaterialHypno"
+			"border_armed"							"MaterialTheme"
 		}
 		"RecipeTitle"
 		{

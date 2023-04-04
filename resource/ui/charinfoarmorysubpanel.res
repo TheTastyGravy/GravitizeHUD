@@ -159,7 +159,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"ItemsBackground"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -223,7 +223,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"ItemsBackground"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
@@ -423,7 +423,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"DescriptionBackground"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
@@ -462,7 +462,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"DescriptionBackground"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
@@ -501,7 +501,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"DescriptionBackground"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"

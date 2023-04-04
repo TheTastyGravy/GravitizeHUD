@@ -312,7 +312,7 @@
 					"depressedFgColor_override"		"White"
 					
 					"border_default"				"MaterialGrayDark"
-					"border_armed"					"MaterialHypno"
+					"border_armed"					"MaterialTheme"
 				}
 
 				"ForBestResultsLabel"
@@ -401,7 +401,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 			
 			"NextButton"
@@ -428,7 +428,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 		}
 
@@ -603,7 +603,7 @@
 						"depressedFgColor_override"	"White"
 						
 						"border_default"			"MaterialGrayDark"
-						"border_armed"				"MaterialHypno"
+						"border_armed"				"MaterialTheme"
 					}
 
 					"NextStencilPaletteButton"
@@ -629,7 +629,7 @@
 						"depressedFgColor_override"	"White"
 						
 						"border_default"			"MaterialGrayDark"
-						"border_armed"				"MaterialHypno"
+						"border_armed"				"MaterialTheme"
 					}
 
 					"StencilGradientMap"
@@ -762,7 +762,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 
 			"BackButton"
@@ -789,7 +789,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 
 			"NextButton"
@@ -816,7 +816,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 		}
 
@@ -947,7 +947,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 
 			"BackButton"
@@ -974,7 +974,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 
 			"OkButton"
@@ -1002,7 +1002,7 @@
 				"depressedFgColor_override"			"White"
 				
 				"border_default"					"MaterialGrayDark"
-				"border_armed"						"MaterialHypno"
+				"border_armed"						"MaterialTheme"
 			}
 		}
 

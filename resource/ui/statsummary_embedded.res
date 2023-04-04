@@ -2104,7 +2104,7 @@
 		
 		"border"									"MaterialGrayDark"
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	

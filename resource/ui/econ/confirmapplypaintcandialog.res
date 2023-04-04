@@ -294,7 +294,7 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 	
 	"OkButton"
@@ -329,6 +329,6 @@
 		"depressedFgColor_override"					"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 	}
 }

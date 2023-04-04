@@ -142,7 +142,7 @@ Scheme
 		/////////////////////////////////MATERIAL MAIN THEME////////////////////////////////
 		////////////////////////////////////////////////////////////////////////////////////
 		
-		MaterialHypno
+		MaterialTheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -154,7 +154,7 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"	
 		}
-		MaterialGrayHypno
+		MaterialGrayTheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

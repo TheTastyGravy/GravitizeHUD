@@ -93,7 +93,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -133,7 +133,7 @@
 		"depressedFgColor_override" 				"White"
 		
 		"border_default"							"MaterialGrayDark"
-		"border_armed"								"MaterialHypno"
+		"border_armed"								"MaterialTheme"
 		
 		"pin_to_sibling" 							"BackgroundCustom"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"

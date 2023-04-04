@@ -44,7 +44,7 @@
 		"tall"										"133"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 		
 		"pin_to_sibling"							"MvMPlayerList"
 	}
@@ -186,7 +186,7 @@
 		"wide"										"518"
 		"tall"										"53"
 		"visible"									"1"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 		
 		"pin_to_sibling"							"PlayerListBackground"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

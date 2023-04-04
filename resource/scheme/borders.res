@@ -1048,8 +1048,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"GrayMedium"
 			
-			"image"					"replay/thumbnails/panels/material_transparent50"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"

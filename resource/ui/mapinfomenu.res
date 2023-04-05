@@ -19,15 +19,19 @@
 	{
 		"ControlName"     		  					"EditablePanel"
 		"fieldName"	        	  					"MapFrame"
-		"xpos"										"cs-0.5"
-		"ypos"										"-5"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"p1.02"
+		"wide"										"400"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
+
+		"pin_to_sibling" 							"Background"
+		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"MapInfoTitle"
@@ -35,7 +39,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapInfoTitle"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"-2"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"20"

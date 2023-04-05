@@ -20,23 +20,27 @@
 	{
 		"ControlName"     		  					"EditablePanel"
 		"fieldName"	        	  					"IntroFrame"
-		"xpos"										"-5"
-		"ypos"										"-5"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"867"
+		"wide"										"320"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent70"
+
+		"pin_to_sibling" 							"VideoBackground"
+		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"Title"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
-		"xpos"										"-5"
-		"ypos"										"-4"
+		"xpos"										"0"
+		"ypos"										"-2"
 		"zpos"										"2"
 		"wide"										"867"
 		"tall"										"20"
@@ -53,6 +57,8 @@
 		"fgcolor_override"							"White"
 		
 		"pin_to_sibling" 							"IntroFrame"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
 	
 	"VideoBackground"

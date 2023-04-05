@@ -29,7 +29,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"MaterialTransparent50"
+		"border"									"MaterialTransparent70"
 
 		"pin_to_sibling" 							"TeamsAnchor"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"

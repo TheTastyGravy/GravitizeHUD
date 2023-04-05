@@ -6,7 +6,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-1"
 		"zpos"			"2"		
-		"wide"			"70"
+		"wide"			"300"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -46,5 +46,50 @@
 			"image"				"../hud/comp_round_counter_light_blue"
 			"scaleimage"		"1"
 		}
+	}
+
+	"BluePanel"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BluePanel"
+		"xpos"					"c-50"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"50"
+		"tall"					"10"
+		"visible"				"1"
+		"enabled"				"1"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"Blue"
+	}
+	"RedPanel"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"RedPanel"
+		"xpos"					"c0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"50"
+		"tall"					"10"
+		"visible"				"1"
+		"enabled"				"1"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"Red"
+	}
+	"TimePanelBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TimePanelBG"
+		"xpos"					"c-50"
+		"ypos"					"7"
+		"zpos"					"-1"
+		"wide"					"100"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/panels/timer_panel"
+		"scaleimage"			"1"
+		"drawcolor"				"0 0 0 200"
 	}
 }

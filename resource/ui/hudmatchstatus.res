@@ -10,73 +10,6 @@
 		"horiz_inset"	"2"
 	}
 
-	"BluePanel"
-	{
-		"ControlName"     	"EditablePanel"
-		"fieldName"	        "BluePanel"
-		"xpos"				"cs-1"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"50"
-		"tall"				"10"
-		"visible"			"0"
-		"enabled"			"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"Blue"
-		
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-	"RedPanel"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"RedPanel"
-		"xpos"				"c"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"50"
-		"tall"				"10"
-		"visible"			"0"
-		"enabled"			"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"Red"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-
-	"TimePanelBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TimePanelBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"7"
-		"zpos"			"-2"
-		"wide"			"100"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"0 0 0 200"
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
@@ -261,24 +194,24 @@
 		}
 	}
 
+	"RoundCounter"
+	{
+		"fieldName"		"RoundCounter"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
 	"BGFrame"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"border"			""
-
-		if_match
-		{
-			"visible"		"1"
-		}
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGFrame"
+		"wide"			"0"
+		"tall"			"0"
 	}
 
 	"RankUpLabel"

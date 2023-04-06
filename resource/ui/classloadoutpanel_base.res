@@ -305,9 +305,9 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override" 					"Blue"
-		"armedFgColor_override" 					"Blue"
-		"depressedFgColor_override" 				"Blue"
-	} 
+		"armedFgColor_override" 					"DarkBlue"
+		"depressedFgColor_override" 				"DarkBlue"
+	}
 
 	"RedButton"
 	{
@@ -334,8 +334,8 @@
 		"paintbackground"							"0"
 		
 		"defaultFgColor_override" 					"Red"
-		"armedFgColor_override" 					"Red"
-		"depressedFgColor_override" 				"Red"
+		"armedFgColor_override" 					"DarkRed"
+		"depressedFgColor_override" 				"DarkRed"
 	}
 	
 	"PresetsExplanation"

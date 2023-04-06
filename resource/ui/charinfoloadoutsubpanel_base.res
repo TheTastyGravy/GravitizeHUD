@@ -65,6 +65,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout scout"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -102,6 +104,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout soldier"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -139,6 +143,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout pyro"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -176,6 +182,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout demoman"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -215,6 +223,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout heavy"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -248,6 +258,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout engineer"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -285,6 +297,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout medic"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -322,6 +336,8 @@
 		"default"									"0"
 		"paintbackground"							"0"
 		"Command"									"loadout sniper"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -359,6 +375,8 @@
 		"default"									"0"
 		"paintbackground" 							"0"
 		"Command"									"loadout spy"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -618,418 +636,6 @@
 		"bgcolor_override"							"30 25 25 245"
 	}
 	
-	
-	//////////////////////////SIDE BAR START/////////////////////////
-	
-	"CustomScoutSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomScoutSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"1"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"Command"									"loadout scout"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomSoldierSide"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-	}
-	"ScoutSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ScoutSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&1"
-		"Command"									"loadout scout"
-		"visible"									"1"
-	}
-	
-	"CustomSoldierSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomSoldierSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"2"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout soldier"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomPyroSide"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-	}
-	"SoldierSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"SoldierSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&2"
-		"Command"									"loadout soldier"
-		"visible"									"1"
-	}
-	
-	"CustomPyroSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomPyroSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"3"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets"					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout pyro"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomDemomanSide"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-	}
-	"PyroSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"PyroSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&3"
-		"Command"									"loadout pyro"
-		"visible"									"1"
-	}
-	
-	"CustomDemomanSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomDemomanSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"4"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout demoman"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-
-		"pin_to_sibling" 							"CustomHeavySide"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"		
-	}
-	"DemomanSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"DemomanSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&4"
-		"Command"									"loadout demoman"
-		"visible"									"1"
-	}
-	
-	"CustomHeavySide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomHeavySide"
-		"xpos"										"0"
-		"ypos"										"cs-0.5"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"PinCorner"									"3"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"5"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"textinsetx"								"0"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout heavy"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-	}
-	"HeavySelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"HeavySelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&5"
-		"Command"									"loadout heavy"
-		"visible"									"1"
-	}
-	
-	"CustomEngineerSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomEngineerSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"6"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout engineer"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomHeavySide"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-	"EngineerSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"EngineerSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&6"
-		"Command"									"loadout engineer"
-		"visible"									"1"
-	}
-	
-	"CustomMedicSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomMedicSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"7"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout medic"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomEngineerSide"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-	"MedicSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"MedicSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&7"
-		"Command"									"loadout medic"
-		"visible"									"1"
-	}
-	
-	"CustomSniperSide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomSniperSide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"8"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground"							"0"
-		"Command"									"loadout sniper"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomMedicSide"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-	"SniperSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"SniperSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&8"
-		"Command"									"loadout sniper"
-		"visible"									"1"
-	}
-	
-	"CustomSpySide"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomSpySide"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"601"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"9"
-		"font"										"Class Symbols 18"
-		"textAlignment"								"center"
-		"use_proportional_insets" 					"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"0"
-		"paintbackground" 							"0"
-		"Command"									"loadout spy"
-		
-		"paintbackground"							"0"
-		"paintborder"								"0"
-		
-		"defaultFgColor_override"					"GrayLight"
-		"armedFgColor_override" 					"WhiteGray"
-		"depressedFgColor_override" 				"GrayLight"
-		
-		"pin_to_sibling" 							"CustomSniperSide"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-	"SpySelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"SpySelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&9"
-		"Command"									"loadout spy"
-		"visible"									"1"
-	}
-	"BackpackSelectNumber"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"BackpackSelectNumber"
-		"xpos"										"9999"
-		"labelText"									"&0"
-		"Command"									"backpack"
-		"visible"									"1"
-	}
-	
-	"ShowExplanationsButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ShowExplanationsButton"
-		"xpos"										"9999"
-	}
-	
 	/////DEAD STUFF
 	"scout"
 	{
@@ -1210,6 +816,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LoadoutChangesLabel"
+		"xpos"										"9999"
+	}
+	"ShowExplanationsButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ShowExplanationsButton"
 		"xpos"										"9999"
 	}
 }

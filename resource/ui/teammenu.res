@@ -80,7 +80,7 @@
 		"fieldName"	        	  					"BlueFrame"
 		"xpos"										"-1"
 		"ypos"										"0"
-		"zpos"										"5"
+		"zpos"										"4"
 		"wide"										"90"
 		"tall"										"130"
 		"visible"									"1"
@@ -109,6 +109,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 22"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"BlueFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -131,6 +132,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 22 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"Blue"
 	}
 	"BlueCount"
@@ -150,6 +152,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 30"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"Blue"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -172,6 +175,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 30 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"BlueCount"
 	}
 	"teambutton0"
@@ -180,7 +184,7 @@
 		"fieldName"		  							"teambutton0"
 		"xpos"										"-3"
 		"ypos"										"-3"
-		"zpos"										"20"
+		"zpos"										"5"
 		"wide"										"84"
 		"tall"										"124"
 		"pinCorner"		  							"0"
@@ -199,7 +203,9 @@
 		"font"			  							""
 		"fgcolor"		  							"Blank"
 		"defaultBgColor_override" 					"0 0 0 0"
-		"armedBgColor_override" 					"0 0 0 50"
+		"armedBgColor_override" 					"0 0 0 75"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling" 							"BlueFrame"
 	}
@@ -211,7 +217,7 @@
 		"fieldName"	        	  					"RedFrame"
 		"xpos"										"-1"
 		"ypos"										"0"
-		"zpos"										"5"
+		"zpos"										"4"
 		"wide"										"90"
 		"tall"										"130"
 		"visible"									"1"
@@ -240,6 +246,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 22"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"RedFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -262,6 +269,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 22 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"Red"
 	}
 	"RedCount"
@@ -281,6 +289,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 30"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"Red"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -303,6 +312,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 30 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"RedCount"
 	}
 	"teambutton1"
@@ -311,7 +321,7 @@
 		"fieldName"		  							"teambutton1"
 		"xpos"										"-3"
 		"ypos"										"-3"
-		"zpos"										"20"
+		"zpos"										"5"
 		"wide"										"84"
 		"tall"										"124"
 		"autoResize"	  							"0"
@@ -331,7 +341,9 @@
 		"font"			  							""
 		"fgcolor"		  							"Blank"
 		"defaultBgColor_override" 					"0 0 0 0"
-		"armedBgColor_override" 					"0 0 0 50"
+		"armedBgColor_override" 					"0 0 0 75"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling" 							"RedFrame"
 	}
@@ -343,7 +355,7 @@
 		"fieldName"	        	  					"RandomFrame"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"5"
+		"zpos"										"4"
 		"wide"										"90"
 		"tall"										"40"
 		"visible"									"1"
@@ -370,6 +382,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Symbols 22"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"RandomFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -390,6 +403,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Symbols 22 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"RandomIcon"
 	}
 	"Random"
@@ -412,6 +426,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 12"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"RandomFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
@@ -433,6 +448,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 12 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"Random"
 	}
 	"teambutton2"
@@ -441,7 +457,7 @@
 		"fieldName"		  							"teambutton2"
 		"xpos"										"-3"
 		"ypos"										"-3"
-		"zpos"										"20"
+		"zpos"										"5"
 		"wide"										"84"
 		"tall"										"34"
 		"autoResize"	  							"0"
@@ -450,7 +466,6 @@
 		"enabled"		  							"1"
 		"tabPosition"	  							"1"
 		"labelText"		  							"&1"
-
 		"textAlignment"	  							"center"
 		"dulltext"		  							"0"
 		"brighttext"	  							"0"
@@ -460,7 +475,9 @@
 		"font"			  							""
 		"fgcolor"		  							"Blank"
 		"defaultBgColor_override" 					"0 0 0 0"
-		"armedBgColor_override" 					"0 0 0 50"
+		"armedBgColor_override" 					"0 0 0 100"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling" 							"RandomFrame"
 	}
@@ -472,7 +489,7 @@
 		"fieldName"	        	  					"SpectateFrame"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"5"
+		"zpos"										"4"
 		"wide"										"90"
 		"tall"										"40"
 		"visible"									"1"
@@ -499,6 +516,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Symbols 22"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"SpectateFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -519,6 +537,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Symbols 22 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"SpectateIcon"
 	}
 	"Spectate"
@@ -537,6 +556,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 12"
 		"fgcolor"		  							"White"
+		"mouseinputenabled"							"0"
 		
 		"pin_to_sibling" 							"SpectateFrame"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
@@ -558,6 +578,7 @@
 		"textAlignment"	  							"center"
 		"font"			  							"Size 12 Blur"
 		"fgcolor"		  							"Shadow"
+		"mouseinputenabled"							"0"
 		"pin_to_sibling" 							"Spectate"
 	}
 	"teambutton3"
@@ -566,7 +587,7 @@
 		"fieldName"		  							"teambutton3"
 		"xpos"										"-3"
 		"ypos"										"-3"
-		"zpos"										"20"
+		"zpos"										"5"
 		"wide"										"84"
 		"tall"										"34"
 		"autoResize"	  							"0"
@@ -584,7 +605,9 @@
 		"font"			  							""
 		"fgcolor"		  							"Blank"
 		"defaultBgColor_override" 					"0 0 0 0"
-		"armedBgColor_override" 					"0 0 0 50"
+		"armedBgColor_override" 					"0 0 0 100"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling" 							"SpectateFrame"
 	}

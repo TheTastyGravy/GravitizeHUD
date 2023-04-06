@@ -25,7 +25,6 @@ Scheme
 		"TransparentBlack"			"0 0 0 150"
 		"TransparentLightBlack"		"0 0 0 100"
 		"TransparentDarkBlack"		"45 45 45 200"
-		"OutlineBorder"				"0 0 0 100"
 
 		"HUDItemEffectBG"			"25 25 25 200"
 

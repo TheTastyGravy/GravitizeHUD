@@ -549,7 +549,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"7"
+				"wide"			"9"
 				"tall"			"7"
 				"visible"		"0"
 				"enabled"		"1"

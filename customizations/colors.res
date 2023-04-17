@@ -37,6 +37,7 @@
 		"Health Gained"	"75 210 75 255"
 		"Health Lost"	"255 50 50 255"
 
+		// Backpack item raritys
 		"Normal"	"50 50 50 255"
 		"Unique"	"255 210 40 255"
 		"Genuine"	"40 180 40 255"
@@ -58,7 +59,7 @@
 		"CommandoGrade"	"170 100 255 255"
 		"AssassinGrade"	"215 95 215 255"
 		"EliteGrade"	"255 100 100 255"
-
+		// Backpack item colors used when hovering or selecting an item
 		"Normal_Hover"	"40 40 40 255"
 		"Unique_Hover"	"225 185 30 255"
 		"Genuine_Hover"	"25 145 25 255"

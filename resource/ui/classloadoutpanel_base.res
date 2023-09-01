@@ -212,7 +212,7 @@
 	
 	"CharacterLoadoutButton"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"CExImageButton"
 		"fieldName"									"CharacterLoadoutButton"
 		"xpos"										"c-85"
 		"ypos"										"c-205"
@@ -243,11 +243,26 @@
 		"defaultBgColor_override"					"GrayDark"
 		"armedBgColor_override"						"Main Theme"
 		"depressedBgColor_override" 				"GrayDark"
+
+		"SubImage"			
+		{			
+			"ControlName"				"ImagePanel"
+			"fieldName"					"SubImage"
+			"xpos"						"4"
+			"ypos"						"4"
+			"zpos"						"1"
+			"wide"						"17"
+			"tall"						"17"
+			"visible"					"0"
+			"enabled"					"0"
+			"scaleImage"				"1"
+			"image"						"glyph_items"
+		}
 	}
 
 	"TauntLoadoutButton"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"CExImageButton"
 		"fieldName"									"TauntLoadoutButton"
 		"xpos"										"c57"
 		"ypos"										"c-205"
@@ -278,6 +293,21 @@
 		"defaultBgColor_override"					"GrayDark"
 		"armedBgColor_override"						"Main Theme"
 		"depressedBgColor_override" 				"GrayDark"
+
+		"SubImage"			
+		{			
+			"ControlName"				"ImagePanel"
+			"fieldName"					"SubImage"
+			"xpos"						"4"
+			"ypos"						"4"
+			"zpos"						"1"
+			"wide"						"17"
+			"tall"						"17"
+			"visible"					"0"
+			"enabled"					"0"
+			"scaleImage"				"1"
+			"image"						"../hud/ico_reel"
+		}
 	}
 	
 	"BlueButton"

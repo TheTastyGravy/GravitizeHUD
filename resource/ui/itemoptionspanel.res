@@ -55,7 +55,7 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"140"
-			"tall"									"14"
+			"tall"									"25"
 			"autoResize"							"0"
 			"RoundedCorners"						"15"
 			"visible"								"0"

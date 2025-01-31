@@ -368,7 +368,7 @@ Scheme
 
 		Slider.NobColor										"108 108 108 255"
 		Slider.TextColor									"White"
-		Slider.TrackColor									"31 31 31 255"
+		Slider.TrackColor									"Black"
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"
 

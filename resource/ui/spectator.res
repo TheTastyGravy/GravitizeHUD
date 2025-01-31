@@ -68,10 +68,12 @@
 		"paintbackground"							"0"
 		"border"									"MaterialTransparent50"
 		
-		"model_ypos"								"11"
+		"model_ypos"								"20"
 		"model_center_x"							"1"
-		"model_wide"								"90"
-		"model_tall"								"60"
+		"model_center_y"							"1"
+		"model_wide"								"80"
+		"model_tall"								"50"
+		"noitem_use_fullpanel"						"0"
 		
 		"text_xpos"									"10"
 		"text_ypos"									"10"

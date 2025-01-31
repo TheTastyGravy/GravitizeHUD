@@ -55,6 +55,15 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_blu_up"
 	}
+	"CPProgressBarBlu"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPProgressBarBlu"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"progress_bar_blu"
+	}
 	"CPIconRed"
 	{
 		"ControlName"		"ImagePanel"
@@ -90,6 +99,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_red_up"
+	}
+	"CPProgressBarRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CPProgressBarRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"progress_bar_red"
 	}
 	"CPIconNeutral"
 	{

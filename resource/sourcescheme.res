@@ -463,7 +463,7 @@ Scheme
 		}
 		"10"
 		{
-			"font" 		"resource/scheme/fonts/FiraCode-Medium.ttf"
+			"font" 		"resource/scheme/fonts/firacode-medium.ttf"
 			"name" 		"Fira Code Medium"
 		}
 	}

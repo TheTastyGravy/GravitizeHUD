@@ -1,3 +1,5 @@
+#base vguipreload.res
+
 "Resource/UI/MainMenuOverride.res"
 {
 	///CONTROL POINT ICONS///
@@ -508,6 +510,33 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"
+	}
+	"CPIconProgress"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CPIconProgress"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/progress_bar"
+	}
+	"CPIconProgressBlu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CPIconProgressBlu"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/progress_bar_blu"
+	}
+	"CPIconProgressRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CPIconProgressRed"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/progress_bar_red"
 	}
 	
 	///CART POINT ICONS///

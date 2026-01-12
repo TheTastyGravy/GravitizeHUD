@@ -126,6 +126,15 @@ event CompetitiveGame_LowerChatWindow
 }
 event CompetitiveGame_RestoreChatWindow
 {
+    //Animate HudChat ypos 275 Accel 0 0  //Default animation
+
+    //Fix stuck animations
+    RunEventChild HudPlayerHealth HudHealthDyingPulseStop 0.1
+    RunEventChild HudPlayerHealth HudHealthBonusPulseStop 0.1
+    RunEventChild HudAmmoWeapons HudLowAmmoPulseStop 0.1
+    RunEventChild HudMedicCharge HudMedicChargedStop 0.1
+
+	//RunEventChild HudPlayerHealth HudHealthPulseReset 0.1
 }
 event HudTournament_MoveChatWindow
 {

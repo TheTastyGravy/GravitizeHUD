@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 #base "../../resource/tools/reloadmenubutton.res"
 #base "../../resource/tools/vtf preload.res"
 
@@ -191,7 +192,7 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"matchgroup"								"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"			"350"
+		"xp_source_notification_center_x"			"150"//"350"
 		"show_model"								"0"
 
 		"pin_to_sibling" 							"RankBorder"

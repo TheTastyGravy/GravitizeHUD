@@ -24,10 +24,13 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 					0.0
 	StopEvent HudLowAmmoPulseLoop 				0.0
 	
+	RunEvent HudAmmoPulseReset					0.0
+}
+
+event HudAmmoPulseReset
+{
 	Animate AmmoInClip 							FgColor 	"Ammo In Clip" 						Linear 	0.0 	0.0
-	
 	Animate AmmoInReserve 						FgColor 	"Ammo In Reserve" 					Linear 	0.0 	0.0
-	
 	Animate AmmoNoClip 							FgColor 	"Ammo No Clip" 						Linear 	0.0 	0.0
 }
 

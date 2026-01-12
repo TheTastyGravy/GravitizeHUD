@@ -280,25 +280,25 @@ Scheme
 	{
 		"30"
 		{
-			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
+			"font" "resource/scheme/fonts/hypnotize_icons.ttf"
 			"name" "Hypnotize Icons V6"
 		}
 		
 		"31"
 		{
-			"font" "resource/scheme/fonts/TF2 Class Icons.ttf"
+			"font" "resource/scheme/fonts/tf2_class_icons.ttf"
 			"name" "TF2 Class Icons V2"
 		}
 		
 		"32"
 		{
-			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
+			"font" "resource/scheme/fonts/readyup_symbols.otf"
 			"name" "ReadyUp Symbols"
 		}
 		
 		"33"
 		{
-			"font" "resource/scheme/fonts/Blocks.ttf"
+			"font" "resource/scheme/fonts/blocks.ttf"
 			"name" "Blocks"
 		}
 	}
